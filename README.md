@@ -43,8 +43,8 @@ _Claim was found in Appendix F (Life Cycle Inventory (LCI)), page 2._
 **Our script** 
 
 Our script counts and lists the model's different roof types. 
-Furthermore, our script counts and lists all unique materials used in the roof.
+Furthermore, our script counts and lists all unique materials used in the roofs.
 
-Our script found, that only 8 unique materials are used in the Ifc model and not 13 as the report states.
+Our script found, that only **8** unique materials are used in the Ifc model and **not** 13 unique materials as the report states.
 
 **For Managers:** A summary of the scripts you are running with links to their repos.
