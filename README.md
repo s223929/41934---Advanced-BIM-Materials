@@ -8,7 +8,7 @@
 
 **Claim**: _Materials used in roofs_. 
 
-The report divides the roofs in two roof types: Green roof and Roof terrass. 
+The report has divided the roof into two different roof categories: Green roof and Roof terrass. 
 Respectively, these two types are divided into three and two roof sublayers. Overall, **13 different types of materials** are listed:
 
 - BGreen.it sedum tray system
