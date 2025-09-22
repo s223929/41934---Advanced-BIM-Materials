@@ -48,3 +48,9 @@ Furthermore, our script counts and lists all unique materials used in the roofs.
 Our script found, that only **8** unique materials are used in the Ifc model and **not** 13 unique materials as the report states.
 
 **For Managers:** A summary of the scripts you are running with links to their repos.
+Analyst Group 33: https://github.com/GustavS193940/BIManalyst_33_Sustainability.git
+
+Group 33's script calculated the net floor area (NFA) and compare it to the stated floor area in the report. 
+The script returns TRUE if the calculated NFA is within a error margin of 
+
+
