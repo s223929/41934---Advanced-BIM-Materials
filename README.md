@@ -52,6 +52,6 @@ Our script found, that only **8** unique materials are used in the Ifc model and
 Analyst Group 33: https://github.com/GustavS193940/BIManalyst_33_Sustainability.git
 
 Group 33's script calculated the net floor area (NFA) and compare it to the stated floor area in the report. 
-The script returns TRUE if the calculated NFA is within a error margin of X. 
+The script prints an explanation on why there might be a difference between the calculated NFA and the stated NFA.
 
 
