@@ -40,6 +40,8 @@ Within the whole use case, two steps have been identified as needing a new scrip
   
 **These two steps have been highlighted in red in the BPMN diagram (file .SVG).**
 
+![Diagram of process](IMG/Group%2032.svg)
+
 ## A2e: Tool idea
 Our tool idea is an OpenBIM script built with ifcOpenShell in Python that can automatically extract material quantities from the BIM model and map these elements to the corresponding EPD datasets manually by user input. 
 The business value of the tool is that it reduces the time and errors associated with manual quantity take-offs, thereby making the, for now, manual EPD mapping easier and more reliable.
