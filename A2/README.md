@@ -19,6 +19,7 @@ First, the “claim” relies on:
 -	The lifespan of the objects and elements
 -	Emission factors assigned for each material
 -	The material properties
+  
 Further, to use this comparison tool, several subordinate tools are required. 
 -	First, the material quantities must be calculated. 
 -	Second, it needs to be checked that each material is linked to valid LCA dataset. This will be done by input from the user of the tool. 
@@ -32,7 +33,8 @@ Ideally, the tool can be applied in close collaboration with the structural team
 # A2d: Scope the use case
 Within the whole use case, two steps have been identified as needing a new script/tool:. 
 -	The first is Quantify masses of materials    , where an automated script could extract volumes and convert them into material masses based on density values. 
--	The second is Assign layer a predefined generic material from Table 7 (BR18) by inputting the "Sorterings ID" , which is currently a manual process and would benefit from a function that automatically links BIM materials directly to corresponding EPD datasets. 
+-	The second is Assign layer a predefined generic material from Table 7 (BR18) by inputting the "Sorterings ID" , which is currently a manual process and would benefit from a function that automatically links BIM materials directly to corresponding EPD datasets.
+  
 These two steps have been highlighted in red in the BPMN diagram (file .SVG).
 
 # A2e: Tool idea
@@ -43,6 +45,7 @@ The societal value of this tool is that it promotes sustainable building design 
 # A2f: Information requirements
 The data required from the BIM model include the dimensions of the building elements: volume, area, and thickness, which will be extracted via:
 -	ifcElementQuantity
+  
 This data will be used for calculating the material masses, and afterwards be linked manually by the user to the generic GWP data in Table 7 (BR18). For the specific material masses, data will be extracted via: 
 -	ifcMaterial
 -	ifcMaterialLayer
@@ -51,7 +54,7 @@ This data will be used for calculating the material masses, and afterwards be li
 -	ifcMaterialList
 -	ifcMaterialConstituentSet
 -	Table 7 from BR18 (outside the model)
--	
+  
 Resulting in  converting the BIM-derived quantities into the appropriate units (in regard to Table 7) for calculating the GWP of the different materials
 
 # A2g: Identify appropriate software license
