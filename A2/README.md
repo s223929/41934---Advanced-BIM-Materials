@@ -1,6 +1,8 @@
 # A2a – About our group 
 Our group’s focus area is Sustainability and Materials. 
+
 We are the Manager group. 
+
 The total score for the Group’s confidence for coding in Python: 4
 
 
