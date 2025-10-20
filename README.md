@@ -8,7 +8,7 @@
 
 **Claim**: _Materials used in roofs_. 
 
-The report divides the roofs in two roof types: Green roof and Roof terrass. 
+The report has divided the roof into two different roof categories: Green roof and Roof terrass. 
 Respectively, these two types are divided into three and two roof sublayers. Overall, **13 different types of materials** are listed:
 
 - BGreen.it sedum tray system
@@ -47,4 +47,11 @@ Furthermore, our script counts and lists all unique materials used in the roofs.
 
 Our script found, that only **8** unique materials are used in the Ifc model and **not** 13 unique materials as the report states.
 
-**For Managers:** A summary of the scripts you are running with links to their repos.
+**For Managers:**
+
+Analyst Group 33: https://github.com/GustavS193940/BIManalyst_33_Sustainability.git
+
+Group 33's script calculated the net floor area (NFA) and compare it to the stated floor area in the report. 
+The script prints an explanation on why there might be a difference between the calculated NFA and the stated NFA.
+
+
