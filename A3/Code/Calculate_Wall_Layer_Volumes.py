@@ -1,8 +1,9 @@
 from collections import defaultdict
 from Defining_Exterior_Walls import ifc_file, selected_wall_type
 
+# loading user selected wall
 
-# === Helper to get wall identifier ===
+# Identify the selected wall
 def get_wall_identifier(wall):
     if wall.ObjectType:
         return wall.ObjectType
@@ -12,7 +13,7 @@ def get_wall_identifier(wall):
         return f"Unnamed wall #{wall.id()}"
 
 
-# === Find all walls corresponding to the selected type ===
+# Finding all walls corresponding to the selected type
 selected_walls = [
     wall
     for wall in (ifc_file.by_type("IfcWall") + ifc_file.by_type("IfcWallStandardCase"))
@@ -23,7 +24,7 @@ if not selected_walls:
     raise ValueError(f"No wall found for the selected type: {selected_wall_type}")
 
 
-# === Function to get wall area from property sets ===
+# Getting the wall area from defined property sets
 def get_wall_area(wall):
     """Finds area under Object Information → Instance → Dimensions"""
     for rel in getattr(wall, "IsDefinedBy", []):
@@ -35,7 +36,7 @@ def get_wall_area(wall):
                         nominal_value = getattr(prop, "NominalValue", None)
                         if nominal_value:
                             return float(nominal_value.wrappedValue)
-    # No area property found
+    # Output, if no wall area found in property sets
     print(
         f"There is no information on area for object {get_wall_identifier(wall)}. "
         "Please adjust BIM-model to include area under Object Information → Dimensions."
@@ -43,7 +44,7 @@ def get_wall_area(wall):
     return None
 
 
-# === Function to get layer thickness from multiple sources ===
+# Getting the different layers' thickness from different ways of defining thicknesses
 def get_layer_thickness(layer):
     if hasattr(layer, "LayerThickness") and layer.LayerThickness:
         return layer.LayerThickness
@@ -75,7 +76,7 @@ def get_layer_thickness(layer):
     return None
 
 
-# === Function to calculate layer volumes for one wall ===
+# Calculating the volumens of the different wall materials
 def calculate_layer_volumes(wall):
     volumes = []
     area = get_wall_area(wall)
@@ -99,6 +100,7 @@ def calculate_layer_volumes(wall):
                 thickness = get_layer_thickness(layer)
                 material_name = getattr(layer.Material, "Name", "Unnamed Material")
 
+                # Output, if no thickness is defined for the material
                 if thickness is None:
                     print(
                         f"There is no information on thickness for layer '{material_name}' "
@@ -114,7 +116,7 @@ def calculate_layer_volumes(wall):
     return volumes
 
 
-# === Aggregate total volume per material across all walls ===
+# Aggregate total volume per material across all walls
 layer_volumes_summary = defaultdict(float)
 
 for wall in selected_walls:
@@ -123,11 +125,12 @@ for wall in selected_walls:
         layer_volumes_summary[material_name] += volume
 
 
-# === Print summary output ===
+# Printing summary output
 print(f"\nThis wall type has {len(selected_walls)} different wall objects.")
 print("\nTotal volumes per material:")
 for material, total_volume in layer_volumes_summary.items():
     print(f"- {material}: {total_volume:.3f} m³")
 
-# === Variable to be used in other scripts ===
+# Now the variable can be used in other parts of the code - for calculating GWP
 layer_volumes_summary = dict(layer_volumes_summary)
+
