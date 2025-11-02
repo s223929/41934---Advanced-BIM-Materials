@@ -2,7 +2,7 @@ import ifcopenshell
 from Load_Model import ifc_file
 
 
-# === Find all exterior walls ===
+# Find all exterior walls
 exterior_walls = []
 
 for wall in ifc_file.by_type("IfcWall") + ifc_file.by_type("IfcWallStandardCase"):
@@ -29,7 +29,7 @@ for wall in ifc_file.by_type("IfcWall") + ifc_file.by_type("IfcWallStandardCase"
     if is_external:
         exterior_walls.append(wall)
 
-# === Categorize exterior walls by number of material layers ===
+# Categorize exterior walls by number of material layers
 walls_with_one_layer = []
 walls_with_multiple_layers = []
 
@@ -53,7 +53,7 @@ for wall in exterior_walls:
                 walls_with_one_layer.append(wall)
             break
 
-# === Helper to get name or ID ===
+# Get name or ID
 def get_wall_identifier(wall):
     if wall.ObjectType:
         return wall.ObjectType
@@ -62,11 +62,11 @@ def get_wall_identifier(wall):
     else:
         return f"Unnamed wall #{wall.id()}"
 
-# === Collect unique wall types ===
+# Collect unique wall types
 unique_multi = sorted(set(get_wall_identifier(w) for w in walls_with_multiple_layers))
 unique_single = sorted(set(get_wall_identifier(w) for w in walls_with_one_layer))
 
-# === Combine both categories into one list for user selection ===
+# Combine both categories (one layers + multiple layers) into one list for user selection
 all_wall_types = unique_multi + unique_single
 
 print("Exterior wall types:")
@@ -81,7 +81,7 @@ for i, wtype in enumerate(unique_single, start=start_index_single):
 
 print(f"\nTotal exterior wall types: {len(all_wall_types)}")
 
-# === User selects wall type ===
+# User selects wall type to later calculate GWP
 while True:
     try:
         choice = int(input("\nChoose which exterior wall you want to calculate GWP for and enter the number here: "))
@@ -95,6 +95,7 @@ while True:
 
 print(f"\n You selected: {selected_wall_type}")
 
-# === You can now use `selected_wall_type` in another part of your program ===
+# `selected_wall_type` can be loaded into another code-file
+
 
 
