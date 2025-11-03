@@ -34,9 +34,13 @@ for col in required_cols:
 # User assigns Sorterings ID to each IFC material
 # ======================================================
 results = []
+material_units = {}  # <-- store material units here
 
-# Define the expected unit of your calculation
-calculated_unit = "m³"  # Adjust if your volumes are in m² or kg
+# Expected unit for volume calculations
+calculated_unit = "m³"
+
+# Allowed units for wall materials (Column J)
+allowed_units = {"kg", "m^2", "m²", "m² with R=1 m²K/W", "m³", "ton"}
 
 print("\nAssign a Sorterings ID to each material found in the selected wall:")
 print("-------------------------------------------------------------------")
@@ -48,35 +52,47 @@ for material_name, volume in layer_volumes_summary.items():
 
         if match.empty:
             print(f"No match found for Sorterings ID '{user_input}'. Please try again.")
-        else:
-            # Get declared unit from Excel
-            unit = match["Deklareret enhed (FU)"].values[0]
+            continue
 
-            # Check unit alignment
-            if unit != calculated_unit:
-                print(
-                    f"Warning: Calculated unit '{calculated_unit}' does not match "
-                    f"declared unit '{unit}' in Excel for '{material_name}'."
-                )
-            
-            # Compute total GWP = A1-A3 + C3 + C4
-            total_gwp = (
-                match["Global Opvarmning, modul A1-A3"].fillna(0).values[0]
-                + match["Global Opvarmning, modul C3"].fillna(0).values[0]
-                + match["Global Opvarmning, modul C4"].fillna(0).values[0]
+        # Extract the declared unit
+        unit = str(match["Deklareret enhed (FU)"].values[0]).strip()
+
+        # Check if this material unit is appropriate for walls
+        if unit not in allowed_units:
+            print(
+                f"This is not a material for a wall (declared unit: '{unit}'). "
+                "Please choose another material from the table."
+            )
+            continue  # Ask for a new ID
+
+        # Optional: Warn if the declared unit doesn’t match the calculation basis
+        if unit != calculated_unit:
+            print(
+                f"Warning: Calculated unit '{calculated_unit}' does not match "
+                f"declared unit '{unit}' in Excel for '{material_name}'."
             )
 
-            navn_dk = match["Navn DK"].values[0]
+        # Compute total GWP = A1-A3 + C3 + C4
+        total_gwp = (
+            match["Global Opvarmning, modul A1-A3"].fillna(0).values[0]
+            + match["Global Opvarmning, modul C3"].fillna(0).values[0]
+            + match["Global Opvarmning, modul C4"].fillna(0).values[0]
+        )
 
-            results.append({
-                "Material (IFC)": material_name,
-                "Volume [m³]": volume,
-                "Sorterings ID": user_input,
-                "Navn DK": navn_dk,
-                "Total GWP (A1-A3 + C3 + C4)": total_gwp,
-                "Enhed": unit
-            })
-            break
+        navn_dk = match["Navn DK"].values[0]
+
+        results.append({
+            "Material (IFC)": material_name,
+            "Volume [m³]": volume,
+            "Sorterings ID": user_input,
+            "Navn DK": navn_dk,
+            "Total GWP (A1-A3 + C3 + C4)": total_gwp,
+            "Enhed": unit
+        })
+
+        # Save the material’s unit for later use
+        material_units[material_name] = unit
+        break  # proceed to next material
 
 # ======================================================
 # Print Summary
@@ -91,3 +107,5 @@ for r in results:
 
 print("------------------------------------------------------------")
 print("All materials successfully assigned.")
+
+
