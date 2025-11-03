@@ -165,7 +165,7 @@ for wall in selected_walls:
 # Output
 # ======================================================
 print(f"\n{len(selected_walls)} exterior walls have been identified to match the selected wall type.")
-print("\nTotal volumes per material (assuming IFC property values are in meters):")
+print("\nTotal volumes per material:")
 for material, total_volume in layer_volumes_summary.items():
     print(f"- {material}: {total_volume:.3f} m³")
 
