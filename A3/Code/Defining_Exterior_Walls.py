@@ -1,5 +1,6 @@
 import ifcopenshell
-from Load_Model import ifc_file
+from Model import ifc_file
+
 
 
 # Find all exterior walls
@@ -93,9 +94,8 @@ while True:
     except ValueError:
         print("Invalid input. Please enter a number.")
 
-print(f"\n You selected: {selected_wall_type}")
+print(f"\n You selected: {selected_wall_type} \n")
 
 # `selected_wall_type` can be loaded into another code-file
-
 
 
