@@ -1,5 +1,3 @@
-## 03:
-
 # About our tool
 
 This tool connects BIM wall materials with EPD data (Environmental Product Declarations). It calculates the Global Warming Potential (GWP) of different wall materials and allows the user/designer to compare several options and choose the material with the lowest environmental impact.
@@ -21,6 +19,8 @@ Each file has its own clear purpose, and together they form the full workflow fo
 - Conversion_factor.py – handles unit and mass conversions.
 - GWP_calculation.py – performs the Global Warming Potential (GWP) calculation.
 - Tabel_7_materials_assigned.py – connects the materials from the BIM model with the EPD data in the Excel file.
+
+----
 
 Instructions to run the tool....
 
