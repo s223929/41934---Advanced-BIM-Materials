@@ -2,17 +2,13 @@
 
 # About the tool
 
-State the problem / claim that your tool is solving:
+Our tool helps connect BIM wall materials with EPD data (Environmental Product Declarations). It automatically calculates the Global Warming Potential (GWP) of different wall materials and allows designers to compare several options and choose the material or design with the lowest environmental impact.
 
-This tool connects BIM wall materials with EPD data (Environmental Product Declarations). It matches each material from the model with a Sorterings ID in an Excel sheet and calculates the Global Warming Potential (GWP) for each wall layer.
-  
-It solves the problem that this process is often done manually, which can be slow and full of mistakes. The tool makes it automatic, clear, and repeatable.
+In other words, the tool is not only a calculator, it is a comparison tool that supports better design decisions.
 
-State where you found that problem:
 
 The problem appears when doing an LCA in BIM projects. We saw that linking BIM materials to EPD data was time-consuming, so we built this tool to fix that.
 
-Description of the tool:
 
 Our tool is divided into several smaller Python scripts to make it easier to understand and maintain.
 Each file has its own clear purpose, and together they form the full workflow for calculating the environmental impact (GWP) of wall materials in a BIM project.
@@ -24,18 +20,18 @@ Each file has its own clear purpose, and together they form the full workflow fo
 - GWP_calculation.py – performs the Global Warming Potential (GWP) calculation.
 - Tabel_7_materials_assigned.py – connects the materials from the BIM model with the EPD data in the Excel file.
 
-Instructions to run the tool:
+Instructions to run the tool....
 
 # Advanced Building Design
 
 What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
 
-Stage C – Detailed Design / Environmental Analysis.
-At this stage, we already know the main materials and can check their environmental impact using the tool.
+Our tool would be useful in stage C (Detailed Design / Environmental Analysis).
+At this stage, we know the main materials and can check their environmental impact using this tool.
 
 - Which subjects might use it?
 
-Life Cycle Assessment (LCA)
+This tool could be used in Life Cycle Assessment (LCA), Advanced Building Design, or in any course where students need to calculate and compare the Global Warming Potential (GWP) of materials from an IFC model.
 
 What information is required in the model for your tool to work?
 
