@@ -18,8 +18,11 @@ Each file has its own clear purpose, and together they form the full workflow fo
 - Calculate_Wall_Layer_Volumes.py – calculates the volume and thickness of each wall layer.
 - Conversion_factor.py – handles unit and mass conversions.
 - GWP_calculation.py – performs the Global Warming Potential (GWP) calculation.
+- GWP_comparison.py - calculate GWP for different materials and compare.
 - Tabel_7_materials_assigned.py – connects the materials from the BIM model with the EPD data in the Excel file.
 
+**SKRIV HVORFOR TABEL 7 ER HER**
+- Tabel-7-2025
 ----
 **SPØRG OM MAIN.PY**
 
