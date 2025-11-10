@@ -1,8 +1,8 @@
 # About our tool
 
-This tool connects BIM wall materials with EPD data (Environmental Product Declarations). It calculates the Global Warming Potential (GWP) of different wall materials and allows the user/designer to compare several options and choose the material with the lowest environmental impact.
+This tool connects BIM wall materials with EPD data (Environmental Product Declarations) and helps automate the process of the environmental assessment. It calculates the Global Warming Potential (GWP) of different wall materials, allowing the user or designer to compare several options.
 
-In other words, the tool is not only a calculator, it is a comparison tool that supports better design decisions.
+In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions.
 
 ----
 
