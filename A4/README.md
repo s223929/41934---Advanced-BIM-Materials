@@ -28,6 +28,13 @@ A crucical attribute to know is:
 
 These materials can applied to layered elements, profiles or be arranged by identified part of a component based element. 
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Layered elements   | - IfcMaterialLayerSet,
+- IfcMaterialLayerSetUsage        |
+| Profile      | - IfcMaterialProfileSet,
+- IfcMaterialProfileSetUsage|
+| Component based element   | Text        |
 
 ---
 
