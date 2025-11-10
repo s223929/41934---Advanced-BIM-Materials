@@ -25,6 +25,8 @@ Each file has its own clear purpose, and together they form the full workflow fo
 
 **Instructions to run the tool....**
 
+**bnpm-DIAGRAM**
+
 # Advanced Building Design
 
 What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
