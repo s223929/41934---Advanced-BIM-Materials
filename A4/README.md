@@ -26,15 +26,14 @@ The materials are one of the basis of LCA, and in BIM they can be extracted and 
 A crucical attribute to know is:
 > **IfcRelAssociatesMaterial:** an objectified relationship between a material definition and elements or element types to which this material definition applies.
 
-These materials can applied to layered elements, profiles or be arranged by identified part of a component based element. 
+These materials can applied to layered elements, profiles or be arranged by identified part of a component based element: 
 
-| Syntax      | Description |
+| Element      | Attribute |
 | ----------- | ----------- |
-| Layered elements   | - IfcMaterialLayerSet,
-- IfcMaterialLayerSetUsage        |
-| Profile      | - IfcMaterialProfileSet,
-- IfcMaterialProfileSetUsage|
-| Component based element   | Text        |
+| Layered elements   | IfcMaterialLayerSet, IfcMaterialLayerSetUsage        |
+| Profile      | IfcMaterialProfileSet, IfcMaterialProfileSetUsage|
+| Component based element   |  IfcMaterialConstituentSet        |
+| Single material   |   IfcMaterial,  IfcMaterialList        |
 
 ---
 
