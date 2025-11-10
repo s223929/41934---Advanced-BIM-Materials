@@ -6,7 +6,7 @@ In other words, the tool is not only a calculator, it is a comparison tool that 
 
 ----
 
-We found that calculating the GWP was difficult and time-consuming. Our tool helps solve this by making the process easier and more organized. All types of external walls are automatically listed together with their materials, volumes, and layer thicknesses. This gives a much better overview of the building’s composition and makes it faster and easier to calculate and compare the GWP for different materials.
+We found that calculating the GWP was difficult and time-consuming. Our tool helps solve this by making the process easier and more organized. All types of external walls are listed together with their materials, volumes, and layer thicknesses. This gives a much better overview of the building’s composition and makes it faster and easier to calculate and compare the GWP for different external walls.
 
 ----
 
