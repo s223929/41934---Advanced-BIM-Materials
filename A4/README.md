@@ -21,7 +21,10 @@ IfcSIUnit...
 ---
 
 ### Extraction of materials and how it's all related
+The materials are one of the basis of LCA, and in BIM they can be extracted and defined in many different ways. 
 
+A crucical entity to know is: 
+> IfcRelAssociatesMaterial
 
 ---
 
