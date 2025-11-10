@@ -108,4 +108,3 @@ for r in results:
 print("------------------------------------------------------------")
 print("All materials successfully assigned.")
 
-
