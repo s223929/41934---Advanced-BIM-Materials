@@ -5,7 +5,7 @@ To conduct a building LCA, one must access a various of different quantities and
 Therefore, this teaching tutorial will highlight three "_good-to-know before you start_" factors: 
 1. Units, units and units
 2. Extraction of materials and how it's all related
-3. I have my material names - what now?
+3. I have my materials - what now?
 
 ---
 
@@ -35,7 +35,7 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 
 ---
 
-### 3. I have my material names - what now?
+### 3. I have my materials - what now?
 - Inconsistence between defined BIM material name and e.g, Tabel 7 2025 material name
 - Language difference
 - Difficult to make it automatic 
