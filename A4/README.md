@@ -6,6 +6,8 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 - Why can't I find my external wall?
 - Units, units and units
 - Extraction of materials and how they are all related
+  
+---
 
 ### Why can't I find my external wall?
 
