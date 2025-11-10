@@ -4,7 +4,7 @@ To conduct a building LCA, one must access a various of different quantities and
 
 Therefore, this teaching tutorial will highlight three "_good-to-know before you start_" factors: 
 - Units, units and units
-- Extraction of materials and how they are all related
+- Extraction of materials and how it's all related
 - I have my material names - what now?
 
 ---
@@ -12,9 +12,16 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 ### Units, units and units
 When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. 
 
+ifc_file.by_type("IfcUnitAssignment")
+
+IfcSIUnit...
+... 
+
+
 ---
 
-### Extraction of materials and how they are all related
+### Extraction of materials and how it's all related
+
 
 ---
 
