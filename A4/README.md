@@ -12,9 +12,7 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 ### 1. Units, units and units
 When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. 
 
-ifc_file.by_type("IfcUnitAssignment")
-
-IfcSIUnit...
+**INDSÆT PY KODE TIL HVORDAN VI FINDER UNIT**
 
 ---
 
@@ -33,10 +31,15 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 | Component based element   |  IfcMaterialConstituentSet        |
 | Single material   |   IfcMaterial,  IfcMaterialList        |
 
+**INDSÆT PY KODE TIL HVORDAN VI FINDER ET MATERIALE UNDER MATERIALLAYERSET**
+
 ---
 
 ### 3. I have my materials - what now?
 - Inconsistence between defined BIM material name and e.g, Tabel 7 2025 material name
 - Language difference
-- Difficult to make it automatic 
+- Difficult to make it automatic
+
+**EVT INDSÆT PY KODE TIL HVORDAN VI ÅBNER EXCELFIL?**
+
 
