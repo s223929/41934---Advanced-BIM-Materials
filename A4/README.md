@@ -24,8 +24,9 @@ IfcSIUnit...
 The materials are one of the basis of LCA, and in BIM they can be extracted and defined in many different ways. 
 
 A crucical attribute to know is:
-> **IfcRelAssociatesMaterial** is an objectified relationship between a material definition and elements or element types to which this material definition applies.
+> **IfcRelAssociatesMaterial:** an objectified relationship between a material definition and elements or element types to which this material definition applies.
 
+These materials can applied to layered elements, profiles or be arranged by identified part of a component based element. 
 
 
 ---
