@@ -23,8 +23,10 @@ IfcSIUnit...
 ### Extraction of materials and how it's all related
 The materials are one of the basis of LCA, and in BIM they can be extracted and defined in many different ways. 
 
-A crucical entity to know is: 
-> IfcRelAssociatesMaterial
+A crucical attribute to know is:
+> **IfcRelAssociatesMaterial** is an objectified relationship between a material definition and elements or element types to which this material definition applies.
+
+
 
 ---
 
