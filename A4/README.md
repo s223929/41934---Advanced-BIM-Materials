@@ -15,8 +15,6 @@ When conducting a LCA, the units are very important, as they relate the material
 ifc_file.by_type("IfcUnitAssignment")
 
 IfcSIUnit...
-... 
-
 
 ---
 
@@ -26,7 +24,7 @@ The materials are one of the basis of LCA, and in BIM they can be extracted and 
 A crucical attribute to know is:
 > **IfcRelAssociatesMaterial:** an objectified relationship between a material definition and elements or element types to which this material definition applies.
 
-These materials can applied to layered elements, profiles or be arranged by identified part of a component based element: 
+This attibute can applied to layered elements, profiles or be arranged by identified part of a component based element: 
 
 | Element      | Attribute |
 | ----------- | ----------- |
@@ -38,3 +36,7 @@ These materials can applied to layered elements, profiles or be arranged by iden
 ---
 
 ### I have my material names - what now?
+- Inconsistence between defined BIM material name and e.g, Tabel 7 2025 material name
+- Language difference
+- Difficult to make it automatic 
+
