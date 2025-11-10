@@ -2,13 +2,13 @@
 
 # About the tool
 
-- State the problem / claim that your tool is solving.
+- State the problem / claim that your tool is solving:
 
-- State where you found that problem.
+- State where you found that problem:
 
-- Description of the tool
+- Description of the tool:
 
-- instructions to run the tool.
+- instructions to run the tool:
 
 # Advanced Building Design
 
