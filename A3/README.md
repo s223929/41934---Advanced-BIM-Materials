@@ -21,6 +21,7 @@ Our tool is divided into several smaller Python scripts to make future changes o
 - Tabel_7_materials_assigned.py – connects the materials from the BIM model with the EPD data in the Excel file.
 
 **TABEL 7 of BR18**
+
 _Tabel-7-2025_ is integrated into the tool. Table 7 in BR18 provides standardized Global Warming Potential (GWP) values for common building materials and is used in the life cycle assessment (LCA) calculations required by BR18.
 To run the tool, the user must have the corresponding Excel file open.
 
@@ -29,6 +30,9 @@ To run the tool, the user must have the corresponding Excel file open.
 
 **Instructions to run the tool....**
 
+
+
+**Updated BPMN-diagram**
 ![BPMN](IMG/Group-32.svg)
 
 # Advanced Building Design
