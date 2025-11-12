@@ -29,7 +29,7 @@ To run the tool, the user must have the corresponding Excel file open.
 
 **Instructions to run the tool....**
 
-![BPMN](<img src="file:///C:/Users/marie/Downloads/Group-32.svg">)
+![BPMN](data:image/svg+xml;utf8,<svg xmlns='file:///C:/Users/marie/Downloads/Group-32.svg' width='100' height='100'><circle cx='50' cy='50' r='40' fill='red'/></svg>)
 
 # Advanced Building Design
 
