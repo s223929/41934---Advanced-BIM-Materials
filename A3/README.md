@@ -36,7 +36,6 @@ Our tool is divided into several smaller Python scripts to make future changes o
 To run the tool, the user must have the corresponding Excel file open.
 
 ----
-**SPØRG OM MAIN.PY**
 
 ## Instructions to run the tool
 
