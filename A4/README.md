@@ -118,9 +118,8 @@ This code loads the Table 7 Excel file and prepares it for use. The Excel file m
 
 ---
 
-- Identification of role and role learning level that you are targeting 1,2 or 3. please check the different roles to see the levels. = Analyst
+### Role targeting
 
-- Address your specific focus area and BIM use. = Materials
+We target the Analyst role...
 
-
-
+Our specific focus area and BIM use in this context is Materials.
