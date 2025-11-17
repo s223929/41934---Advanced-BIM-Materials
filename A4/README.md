@@ -19,7 +19,6 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. We therefore developed the code below to ensure that the correct units are consistently applied.
 
 Python code:
-
 ```
 unit_assignment = ifc_file.by_type("IfcUnitAssignment")
 
@@ -73,10 +72,7 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 | Single material   |   IfcMaterial,  IfcMaterialList        |
 
 Python code:
-
 ```
-# Categorize exterior walls by number of material layers
-
 walls_with_one_layer = []
 walls_with_multiple_layers = []
 
@@ -106,11 +102,24 @@ This code identifies the material assigned to each exterior wall by following th
 ---
 
 ### 3. I have my materials - what now?
-- Inconsistence between defined BIM material name and e.g, Tabel 7 2025 material name
-- Language difference
-- Difficult to make it automatic
 
+Even after extracting the materials from your BIM model, several challenges remain:
 
-**EVT INDSÆT PY KODE TIL HVORDAN VI ÅBNER EXCELFIL?**
+- Inconsistencies between BIM material names and the official names used in databases (e.g., Table 7 Bygningsreglementet), which makes direct matching unreliable.
+- Language differences, such as materials defined in Danish while databases use English terminology.
+- Difficult to fully automate, because the workflow still requires manually selecting the correct material from Table 7 and entering it into the tool. Only then can the tool pull the corresponding values from the Excel file. In other words, the process is not 100% automatic.
 
+Here is the code needed to open Table 7 and use it within your own Python script:
 
+```
+import os
+import pandas as pd
+excel_filename = "Tabel-7-2025.xlsx"
+excel_path = os.path.join(os.path.dirname(__file__), excel_filename)
+
+df = pd.read_excel(excel_path, sheet_name=0)
+df.columns = [str(c).strip() for c in df.columns]
+```
+**More of the code**????
+
+This code loads the Table 7 Excel file and prepares it for use. It first constructs the full file path, reads the first sheet into a Pandas DataFrame, and then cleans the column names by removing any extra whitespace.
