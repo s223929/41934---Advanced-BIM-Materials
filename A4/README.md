@@ -14,9 +14,8 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 ---
 
 ### 1. Units, units and units
-When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. We therefore developed the code below to ensure that the correct units are consistently applied.
+When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. We therefore developed the code below to ensure that the correct units are consistently applied:
 
-Python code:
 ```
 unit_assignment = ifc_file.by_type("IfcUnitAssignment")
 
@@ -69,7 +68,7 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 | Component based element   |  IfcMaterialConstituentSet        |
 | Single material   |   IfcMaterial,  IfcMaterialList        |
 
-Python code:
+The following code identifies the material assigned to each exterior wall by following the IfcRelAssociatesMaterial relationship, which links a wall to its material definition. It supports both IfcMaterialLayerSetUsage and IfcMaterialLayerSet, counts the number of layers in the material set, and then categorizes each wall based on whether it has one or multiple layers.
 ```
 walls_with_one_layer = []
 walls_with_multiple_layers = []
@@ -94,8 +93,6 @@ for wall in exterior_walls:
                 walls_with_one_layer.append(wall)
             break
 ```
-
-This code identifies the material assigned to each exterior wall by following the IfcRelAssociatesMaterial relationship, which links a wall to its material definition. It supports both IfcMaterialLayerSetUsage and IfcMaterialLayerSet, counts the number of layers in the material set, and then categorizes each wall based on whether it has one or multiple layers.
 
 ---
 
