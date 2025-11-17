@@ -38,7 +38,7 @@ To run the tool, the user must have the corresponding Excel file open.
 ----
 **SPØRG OM MAIN.PY**
 
-**Instructions to run the tool**
+## Instructions to run the tool
 
 To run the GWP comparison tool, please follow the instructions listed below:
 
@@ -66,7 +66,7 @@ The tool ends here - thank you for trying it out!
 
 If you are intrested, the flowchart for our tool is illustrated in the figure below: 
 
-**Updated BPMN-diagram**
+**BPMN-diagram**
 ![BPMN](IMG/Group-32.svg)
 
 ## Advanced Building Design
