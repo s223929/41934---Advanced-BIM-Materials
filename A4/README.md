@@ -115,12 +115,9 @@ import pandas as pd
 excel_filename = "Tabel-7-2025.xlsx"
 excel_path = os.path.join(os.path.dirname(__file__), excel_filename)
 
-df = pd.read_excel(excel_path, sheet_name=0)
-df.columns = [str(c).strip() for c in df.columns]
 ```
-**More of the code**????
 
-This code loads the Table 7 Excel file and prepares it for use. It first constructs the full file path, reads the first sheet into a Pandas DataFrame, and then cleans the column names by removing any extra whitespace.
+This code loads the Table 7 Excel file and prepares it for use. The Excel file must be open while the script is running, and it should be located in the same folder as your Python file.
 
 ---
 
