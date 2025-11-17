@@ -104,11 +104,11 @@ This section presents the baseline for making a full IDS. Below is stated the re
 | ------- | ------- | ----------- |
 | Wall | IfcWall / IfcWallStandardCase| The tool can only calculate GWP for external walls at this stage |
 | External wall | Pset_WallCommon => IsExternal | There is not a "IfcExternalWall", so to define a wall as external, the "IsExternal" must be "True" |
-| Material| IfcMaterial | This attribute is the basic entity for material designation and definition |
-| Material layer | IfcMaterialLayer |  This attribute is a single and identifiable part of an element which is constructed of a number of layers with a constant thickness |
-| Material layer | IfcMaterialLayerSet | This attribute is for layered elements, thereby also walls, with an indication of the layering direction and individual layer thicknesses |
-| Material layer | IfcMaterialLayerSetUsage | This attribute should only be associated with individual occurrences |
-| Unit | IfcUnitAssignment | Establishes a set of units which will be used globally within the project, if not otherwise defined |
+| Material| [IfcMaterial](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterial.htm) | This attribute is the basic entity for material designation and definition |
+| Material layer | [IfcMaterialLayer](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayer.htm) |  This attribute is a single and identifiable part of an element which is constructed of a number of layers with a constant thickness |
+| Material layer | [IfcMaterialLayerSet](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayerSet.htm) | This attribute is for layered elements, thereby also walls, with an indication of the layering direction and individual layer thicknesses |
+| Material layer | [IfcMaterialLayerSetUsage](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayerSetUsage.htm) | This attribute should only be associated with individual occurrences |
+| Unit | [IfcUnitAssignment](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcUnitAssignment.htm) | Establishes a set of units which will be used globally within the project, if not otherwise defined |
 | Area | Dimensions => Area | Is necessary for calculating GWP of the material |
 | Volume | Dimensions => Volume | Is necessary for calculating GWP of the material |
 | Length | Dimensions => Length | Is necessary for calculating GWP of the material |
