@@ -22,17 +22,17 @@ As the tool is a GWP comparison tool only suitable for generic EPD's, a specific
 
 Our tool is divided into several smaller Python scripts to make future changes or updates easier.
 
-- Model.py – reads and organizes data from the BIM model.
-- Defining_Exterior_Walls.py – selects the exterior walls to be analysed.
-- Calculate_Wall_Layer_Volumes.py – calculates the volume and thickness of each wall layer.
-- Conversion_factor.py – handles unit and mass conversions.
-- GWP_calculation.py – performs the Global Warming Potential (GWP) calculation.
-- GWP_comparison.py - calculate GWP for different materials and compare.
-- Tabel_7_materials_assigned.py – connects the materials from the BIM model with the EPD data in the Excel file.
+- [Model.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/main.py) – reads and organizes data from the BIM model.
+- [Defining_Exterior_Walls.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/Defining_Exterior_Walls.py) – selects the exterior walls to be analysed.
+- [Calculate_Wall_Layer_Volumes.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/Calculate_Wall_Layer_Volumes.py) – calculates the volume and thickness of each wall layer.
+- [Conversion_factor.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/Conversion_factor.py) – handles unit and mass conversions.
+- [GWP_calculation.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/GWP_calculation.py) – performs the Global Warming Potential (GWP) calculation.
+- [GWP_comparison.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/GWP_comparison.py) - calculate GWP for different materials and compare.
+- [Tabel_7_materials_assigned.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/Tabel_7_materials_assigned.py) – connects the materials from the BIM model with the EPD data in the Excel file.
 
 **TABLE 7 of BR18**
 
-_Tabel-7-2025_ is integrated into the tool. Table 7 in BR18 provides standardized Global Warming Potential (GWP) values for common building materials and is used in the life cycle assessment (LCA) calculations required by BR18.
+[_Tabel-7-2025_](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/Tabel-7-2025.xlsx) is integrated into the tool. Table 7 in BR18 provides standardized Global Warming Potential (GWP) values for common building materials and is used in the life cycle assessment (LCA) calculations required by BR18.
 To run the tool, the user must have the corresponding Excel file open.
 
 ----
