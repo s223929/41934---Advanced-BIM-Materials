@@ -40,7 +40,7 @@ def calculate_gwp_scenario():
 
 
 def main():
-    print("=== GWP Comparison Tool ===")
+    print("----------------------------------------------")
 
     scenarios = []
     detailed_records = []
@@ -100,7 +100,7 @@ def main():
     df_summary["Difference from Original (%)"] = df_summary["Difference from Original (%)"].map("{:+.2f}".format)
 
     # --- Print only summary table ---
-    print("\n=== GWP Comparison Summary ===")
+    print("\n----------------------------------------------")
     print(tabulate(df_summary, headers="keys", tablefmt="grid", showindex=False, numalign="right", stralign="center"))
 
     # --- Detailed combined sheet for Excel ---

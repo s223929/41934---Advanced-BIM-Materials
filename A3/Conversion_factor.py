@@ -31,15 +31,15 @@ for r in results:
             converted_volume = None
         else:
             converted_volume = volume_m3 / layer_thickness
-            print(f"Converted '{material_name}' from m³ to m² using layer thickness {layer_thickness} m")
+            #print(f"Converted '{material_name}' from m³ to m² using layer thickness {layer_thickness} m")
 
     elif excel_unit == "kg":
         if masse_faktor and masse_enhed in ["kg/m3"]:
             converted_volume = volume_m3 * masse_faktor
-            print(f"Converted '{material_name}' from m³ to kg using Masse faktor {masse_faktor} {masse_enhed} from EPD '{epd_name}'")
+            #print(f"Converted '{material_name}' from m³ to kg using Masse faktor {masse_faktor} {masse_enhed} from EPD '{epd_name}'")
         elif masse_enhed in ["g/cm3", "g/cm³"]:
             converted_volume = (volume_m3 * 1000000 * masse_faktor) / 1000
-            print(f"Converted '{material_name}' from m³ to kg using Masse faktor {masse_faktor} {masse_enhed} from EPD '{epd_name}'")
+            #print(f"Converted '{material_name}' from m³ to kg using Masse faktor {masse_faktor} {masse_enhed} from EPD '{epd_name}'")
         else:
             print(f"Cannot convert '{material_name}' to kg: missing or incompatible Masse Enhed.")
             converted_volume = None
@@ -47,7 +47,7 @@ for r in results:
     elif excel_unit == "ton":
         if masse_faktor and masse_enhed in ["kg/m3"]:
             converted_volume = volume_m3 * masse_faktor / 1000
-            print(f"Converted '{material_name}' from m³ to ton using Masse faktor {masse_faktor} {masse_enhed} from EPD '{epd_name}'")
+            #print(f"Converted '{material_name}' from m³ to ton using Masse faktor {masse_faktor} {masse_enhed} from EPD '{epd_name}'")
         else:
             print(f"Cannot convert '{material_name}' to ton: missing or incompatible Masse Enhed.")
             converted_volume = None
@@ -62,18 +62,18 @@ for r in results:
     }
 
 # Results
-print("----------------------------------------------")
-print("\nConverted volumes per material:")
-for material, data in converted_volumes.items():
-    vol = data["volume"]
-    epd_name = data["epd_name"]
-    unit = material_units.get(material, '')
+#print("----------------------------------------------")
+#print("\nConverted volumes per material:")
+#for material, data in converted_volumes.items():
+    #vol = data["volume"]
+    #epd_name = data["epd_name"]
+    #unit = material_units.get(material, '')
 
-    if vol is None:
-        print(f"- IFC material: {material} | EPD: {epd_name} | Conversion failed ({unit})")
-    else:
-        print(f"- IFC material: {material} | EPD: {epd_name} | Quantity: {round(vol, 2)} {unit}")
-print("----------------------------------------------")
+    #if vol is None:
+        #print(f"- IFC material: {material} | EPD: {epd_name} | Conversion failed ({unit})")
+    #else:
+        #print(f"- IFC material: {material} | EPD: {epd_name} | Quantity: {round(vol, 2)} {unit}")
+#print("----------------------------------------------")
 
 # Store converted volumes similar to material_units
 converted_results = {}  # dict mapping IFC material name → converted volume

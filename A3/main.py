@@ -3,8 +3,9 @@ import GWP_comparison
 
 def main():
     """Entry point of the program."""
-    print("=== Starting GWP Comparison Program ===\n")
+    print("----------------------------------------------\n")
     GWP_comparison.main()
+    print("----------------------------------------------\n")
     print("\n=== Program finished successfully ===")
 
 

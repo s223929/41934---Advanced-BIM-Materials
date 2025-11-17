@@ -114,4 +114,4 @@ print("\nTotal volumes per material:")
 for material, data in layer_volumes_summary.items():
     print(f"- Material name: {material} | Volume: {data['volume']:.3f} m³ | Layer thickness: {data['thickness']} m")
 
-print("----------------------------------------------")
+print("\n----------------------------------------------")

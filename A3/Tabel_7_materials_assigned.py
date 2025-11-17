@@ -65,6 +65,8 @@ for material_name, data in layer_volumes_summary.items():
         material_units[material_name] = unit
         break
 
+print("\n----------------------------------------------")
+
 print("\nSummary of Assigned Materials:")
 for r in results:
     print(f"- IFC material: {r['Material (IFC)']} is mapped with EPD: {r['Navn DK']} | "
@@ -73,4 +75,4 @@ for r in results:
           f"Layer thickness: {r['Layer thickness']} m | "
           f"GWP: {r['Total GWP (A1-A3 + C3 + C4)']:.2f} kg CO2-eq / {r['Enhed']}")
 
-print("----------------------------------------------")
+print("\n----------------------------------------------")
