@@ -50,9 +50,6 @@ else:
         else:
             length_unit_str = f"{prefix or ''}{name}"
             conversion_factor = 1.0
-        print("----------------------------------------------")
-        print(f"Defined in the IFC model is the following unit for material layer thickess: {length_unit_str}")
-        print("----------------------------------------------")
 
 ```
 
@@ -75,7 +72,36 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 | Component based element   |  IfcMaterialConstituentSet        |
 | Single material   |   IfcMaterial,  IfcMaterialList        |
 
-**INDSÆT PY KODE TIL HVORDAN VI FINDER ET MATERIALE UNDER MATERIALLAYERSET**
+Python code:
+
+```
+# Categorize exterior walls by number of material layers
+
+walls_with_one_layer = []
+walls_with_multiple_layers = []
+
+for wall in exterior_walls:
+    for rel in ifc_file.get_inverse(wall):
+        if rel.is_a("IfcRelAssociatesMaterial"):
+            mat = rel.RelatingMaterial
+
+            # Support both LayerSetUsage and LayerSet
+            if mat.is_a("IfcMaterialLayerSetUsage"):
+                layer_set = mat.ForLayerSet
+            elif mat.is_a("IfcMaterialLayerSet"):
+                layer_set = mat
+            else:
+                continue
+
+            num_layers = len(layer_set.MaterialLayers)
+            if num_layers > 1:
+                walls_with_multiple_layers.append(wall)
+            elif num_layers == 1:
+                walls_with_one_layer.append(wall)
+            break
+```
+
+This code identifies the material assigned to each exterior wall by following the IfcRelAssociatesMaterial relationship, which links a wall to its material definition. It supports both IfcMaterialLayerSetUsage and IfcMaterialLayerSet, counts the number of layers in the material set, and then categorizes each wall based on whether it has one or multiple layers.
 
 ---
 
@@ -83,6 +109,7 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 - Inconsistence between defined BIM material name and e.g, Tabel 7 2025 material name
 - Language difference
 - Difficult to make it automatic
+
 
 **EVT INDSÆT PY KODE TIL HVORDAN VI ÅBNER EXCELFIL?**
 
