@@ -1,17 +1,16 @@
 # About our tool
 
-This tool links the geometric data of external walls extracted from IFC files with Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall materials, enabling architects and engineers to easily compare multiple building design options in terms of their environmental impact.
+This tool links the geometric data of external walls extracted from IFC files with generic Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall materials, enabling architects and engineers to easily compare multiple building design options in terms of their environmental impact.
+
+We developed the tool, as we found calculating the GWP was non-automatic and time-consuming in the Danish software _LCAbyg_. Therefore, our tool optimize this problem by making the process of comparing different scenarios easier, faster, and more organized. 
 
 In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions. If the tool was to be developed furter, all the rest of the building components were to be included for GWP calculations and comparison. 
 
 ----
 
-We developed the tool, as we found calculating the GWP was non-automatic and time-consuming in the Danish software _LCAbyg_. Therefore, our tool optimize this problem by making the process of comparing different scenarios easier, faster, and more organized. 
+The IFC test file used under the development of the tool, is _25-16-D-ARCH_, computed by Group 16 during the DTU course Advanced Building Design in the spring 2025, and the appertaining report _25_16_D_MAT_. 
 
-**State where you found that problem.**
-
-
-
+As the tool is a GWP comparison tool only suitable for generic EPD's, a specific problem from the report have not been identified. Instead, the report have been used as a basis for the comparison idea, as the report states different GWP values for different materials. These materials are, unfortunately, connected to product specific EPD's, and therefore, it has not been possible to state the report's claim. 
 
 ----
 ## Description of our tool
