@@ -59,7 +59,7 @@ The materials are one of the basis of LCA, and in BIM they can be extracted and 
 A crucical attribute to know is:
 > **IfcRelAssociatesMaterial:** an objectified relationship between a material definition and elements or element types to which this material definition applies.
 
-This attibute can applied to layered elements, profiles or be arranged by identified part of a component based element: 
+This attibute can be applied to layered elements, profiles or be arranged by identified part of a component based element: 
 
 | Element      | Attribute |
 | ----------- | ----------- |
@@ -67,6 +67,9 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 | Profile      | IfcMaterialProfileSet, IfcMaterialProfileSetUsage|
 | Component based element   |  IfcMaterialConstituentSet        |
 | Single material   |   IfcMaterial,  IfcMaterialList        |
+
+The table shows which types of material representations can be associated with an IFC element, and which IFC material type is used in each case.
+
 
 The following code identifies the material assigned to each exterior wall by following the IfcRelAssociatesMaterial relationship, which links a wall to its material definition. It supports both IfcMaterialLayerSetUsage and IfcMaterialLayerSet, counts the number of layers in the material set, and then categorizes each wall based on whether it has one or multiple layers.
 ```
