@@ -1,5 +1,11 @@
 ## How to LCA in BIM
 
+### Why using our tool?
+
+If you want to perform a LCA directly from your BIM model, without being slowed down by unit errors, missing materials, or no data links, this tutorial is for you.
+
+---
+
 To conduct a building LCA, one must access a various of different quantities and materials. Furthermore, the selection of all or a few impact categories must be chosen. So, there is a few things to take into account.. and many surprises along the way when combining LCA with BIM.
 
 Therefore, this teaching tutorial will highlight three "_good-to-know before you start_" factors: 
