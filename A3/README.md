@@ -1,4 +1,9 @@
-# About our tool
+# A3
+Hi, and welcome to the description of our tool!
+
+In the sections below, you will be guided through the development and reasoning for our tool, a detailed step-by-step guide on how to use our tool, and finally how it is related to Advanced Building Design. 
+
+## About our tool
 
 This tool links the geometric data of external walls extracted from IFC files with generic Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall materials, enabling architects and engineers to easily compare multiple building design options in terms of their environmental impact.
 
@@ -59,22 +64,25 @@ As you asses the GWP for your chosen materials, you will be asked if you want to
 
 The tool ends here - thank you for trying it out!
 
+If you are intrested, the flowchart for our tool is illustrated in the figure below: 
 
 **Updated BPMN-diagram**
 ![BPMN](IMG/Group-32.svg)
 
-# Advanced Building Design
+## Advanced Building Design
 
-What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+_What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?_
 
-Our tool would be useful in stage C (Detailed Design / Environmental Analysis). - CHECK IGENNEM
-At this stage, we know the main materials and can check their environmental impact using this tool.
+Our tool would be useful in stage C (Detailed Design / Environmental Analysis). 
+At this stage, we have decided on the main materials and can check their environmental impact using this tool.
 
-- Which subjects might use it?
+However, the tool would also be useful in stage D, as it simply can calculate GWP. 
+
+_Which subjects might use it?_
 
 This tool could be used in Life Cycle Assessment (LCA), Advanced Building Design, or in any course where students need to calculate and compare the Global Warming Potential (GWP) of materials from an IFC model.
 
-What information is required in the model for your tool to work?
+_What information is required in the model for your tool to work?_
 
 - Material names
 - Wall layers from a BIM model (IFC)
