@@ -49,7 +49,9 @@ else:
 
 ```
 
-This code checks the IFC file to identify which length unit is used (e.g., millimeters, centimeters, or meters). It looks for the IfcUnitAssignment, finds the length unit, and applies the correct conversion factor so that all values are converted to meters.
+This code checks the IFC file to identify which length unit is used (e.g., millimeters, centimeters, or meters). The code uses the IfcUnitAssignment, where _each unit definition shall be unique; that is, there shall be no redundant unit definitions for the same unit type such as length unit or area unit_, as described by [buildingSMART](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcUnitAssignment.htm).
+
+By applying this, the code finds the length unit, and applies the correct conversion factor so that all values are converted to meters.
 
 ---
 
@@ -63,10 +65,10 @@ This attibute can be applied to layered elements, profiles or be arranged by ide
 
 | Element      | Attribute |
 | ----------- | ----------- |
-| Layered elements   | IfcMaterialLayerSet, IfcMaterialLayerSetUsage        |
-| Profile      | IfcMaterialProfileSet, IfcMaterialProfileSetUsage|
-| Component based element   |  IfcMaterialConstituentSet        |
-| Single material   |   IfcMaterial,  IfcMaterialList        |
+| Layered elements   | [IfcMaterialLayerSet](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayerSet.htm), [IfcMaterialLayerSetUsage](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayerSetUsage.htm)        |
+| Profile      | [IfcMaterialProfileSet](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialProfileSet.htm), [IfcMaterialProfileSetUsage](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialProfileSetUsage.htm)|
+| Component based element   |  [IfcMaterialConstituentSet](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialConstituentSet.htm)        |
+| Single material   |   [IfcMaterial](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterial.htm)        |
 
 The table shows which types of material representations can be associated with an IFC element, and which IFC material type is used in each case.
 
