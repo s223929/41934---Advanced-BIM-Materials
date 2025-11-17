@@ -58,7 +58,7 @@ By applying this, the code finds the length unit, and applies the correct conver
 ### 2. Extraction of materials and how it's all related
 The materials are one of the basis of LCA, and in BIM they can be extracted and defined in many different ways. 
 
-A crucical attribute to know is:
+A crucial attribute to know is:
 > [**IfcRelAssociatesMaterial:**](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcRelAssociatesMaterial.htm) an objectified relationship between a material definition and elements or element types to which this material definition applies.
 
 This attibute can be applied to layered elements, profiles or be arranged by identified part of a component based element: 
@@ -107,9 +107,9 @@ Even after extracting the materials from your BIM model, several challenges rema
 
 - Inconsistencies between BIM material names and the official names used in databases (e.g., Table 7 Bygningsreglementet), which makes direct matching unreliable.
 - Language differences, such as materials defined in other languages (e.g. Danish) while databases use English terminology.
-- Difficult to fully automate, because the workflow still requires manually selecting the correct material from Table 7 and entering it into the tool. Only then can the tool pull the corresponding values from the Excel file. In other words, the process is not 100% automatic.
+- Difficult to fully automate, because the workflow still requires manually selecting the correct material from Table 7 and entering it into the tool. Only then can the tool extract the corresponding values from the Excel file. In other words, the process is stil not 100% automatic.
 
-Here is the code needed to open Table 7 and use it within your own Python script:
+Here is the code needed to read the Table 7 and use it within your own Python script:
 
 ```
 import os
@@ -119,12 +119,12 @@ excel_path = os.path.join(os.path.dirname(__file__), excel_filename)
 
 ```
 
-This code loads the Table 7 Excel file and prepares it for use. The Excel file must be open while the script is running, and it should be located in the same folder as your Python file.
+This code loads the Table 7 Excel file and prepares it for use. The Excel file must be located in the same folder as your Python file.
 
 ---
 
 ### Role targeting
 
-We target the Analyst Level 3 role, as the tool is developed as a standalone Python script using IfcOpenShell for a specific purpose: performing LCA within a BIM workflow.
+We target the _Analyst Level 3_ role, as the tool is developed as a standalone Python script using IfcOpenShell for a specific purpose: performing GWP calulation and comparison within a BIM workflow.
 
-Our focus area and BIM use case in this context is Materials.
+Our focus area and BIM use case in this context is _Materials_.
