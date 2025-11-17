@@ -1,8 +1,6 @@
 ## How to LCA in BIM
 
-### Why using our tool?
-
-If you want to perform a LCA directly from your BIM model, without being slowed down by unit errors, missing materials, incomplete quantities, or broken data links, this tutorial is for you. The tool is designed to simplify the manual work, allowing you to calculate GWP quickly and efficiently using an IFC file.
+If you want to perform a LCA directly from your BIM model, without being slowed down by unit errors, missing materials, incomplete quantities, or broken data links, this tutorial is for you. This guide is designed to simplify the manual work, allowing you to calculate GWP quickly and efficiently using an IFC file.
 
 ---
 
