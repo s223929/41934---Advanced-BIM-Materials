@@ -15,7 +15,7 @@ In other words, the tool is not only a calculation tool, but also a comparison t
 
 The IFC test file used under the development of the tool, is _25-16-D-ARCH_, computed by Group 16 during the DTU course Advanced Building Design in the spring 2025, and the appertaining report _25_16_D_MAT_. 
 
-As the tool is a GWP comparison tool only suitable for generic EPD's, a specific problem from the report have not been identified. Instead, the report have been used as a basis for the comparison idea, as the report states different GWP values for different materials. These materials are, unfortunately, connected to product specific EPD's, and therefore, it has not been possible to state the report's claim. 
+As the tool is a GWP comparison tool only suitable for generic EPD's, a specific problem from the report have not been identified. Instead, the report has been used as a basis for the comparison idea, as the report states different GWP values for different materials. These materials are, unfortunately, connected to product specific EPD's, and therefore, it has not been possible to state the report's claim. 
 
 ----
 ## Description of our tool
