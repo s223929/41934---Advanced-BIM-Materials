@@ -74,7 +74,7 @@ This attibute can be applied to layered elements, profiles or be arranged by ide
 | Single material   |   [IfcMaterial](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterial.htm)        |
 
 The table shows which types of material representations can be associated with an IFC element, and which IFC material type is used in each case.
-
+In short, the "IfcMaterialLayerSet" defines what layers a component consists of - the materials and thickness. Whereas, "IfcMaterialLayerSetUsage" defines how that layer set is applied to a building element. The same is applicable for "IfcMaterialProfileSet" and "IfcMaterialProfileSetUsage". 
 
 The following code identifies the material assigned to each exterior wall by following the IfcRelAssociatesMaterial relationship, which links a wall to its material definition. It supports both IfcMaterialLayerSetUsage and IfcMaterialLayerSet, counts the number of layers in the material set, and then categorizes each wall based on whether it has one or multiple layers.
 ```
