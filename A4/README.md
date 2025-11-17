@@ -6,19 +6,54 @@ If you want to perform a LCA directly from your BIM model, without being slowed 
 
 ---
 
-To conduct a building LCA, one must access a various of different quantities and materials. Furthermore, the selection of all or a few impact categories must be chosen. So, there is a few things to take into account.. and many surprises along the way when combining LCA with BIM.
+To conduct a building LCA, one must access a various of different quantities and materials. Furthermore, the selection of all or a few impact categories must be chosen. So, there is a few things to take into account and many surprises along the way when combining LCA with BIM.
 
 Therefore, this teaching tutorial will highlight three "_good-to-know before you start_" factors: 
 1. Units, units and units
 2. Extraction of materials and how it's all related
-3. I have my materials - what now?
+3. I have my materials - but what now?
  
 ---
 
 ### 1. Units, units and units
-When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. 
+When conducting a LCA, the units are very important, as they relate the material to the emission factor. However, it is not always easy to determine if one are extracting the IFC unit or the e.g., BlenderBIM unit. We therefore developed the code below to ensure that the correct units are consistently applied.
 
-**INDSÆT PY KODE TIL HVORDAN VI FINDER UNIT**
+Python code:
+
+```
+unit_assignment = ifc_file.by_type("IfcUnitAssignment")
+
+if not unit_assignment:
+    length_unit_str = "UNKNOWN"
+    conversion_factor = 1.0
+else:
+    length_units = [
+        u for u in unit_assignment[0].Units
+        if u.is_a("IfcSIUnit") and u.UnitType == "LENGTHUNIT"
+    ]
+    if not length_units:
+        length_unit_str = "UNKNOWN"
+        conversion_factor = 1.0
+    else:
+        length_unit = length_units[0]
+        prefix = length_unit.Prefix
+        name = length_unit.Name
+        if prefix == "MILLI":
+            length_unit_str = "MILLIMETERS"
+            conversion_factor = 0.001
+        elif prefix == "CENTI":
+            length_unit_str = "CENTIMETERS"
+            conversion_factor = 0.01
+        elif name == "METRE" and prefix is None:
+            length_unit_str = "METERS"
+            conversion_factor = 1.0
+        else:
+            length_unit_str = f"{prefix or ''}{name}"
+            conversion_factor = 1.0
+
+```
+
+This code checks the IFC file to identify which length unit is used (e.g., millimeters, centimeters, or meters). It looks for the IfcUnitAssignment, finds the length unit, and applies the correct conversion factor so that all values are converted to meters.
 
 ---
 
@@ -37,7 +72,36 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 | Component based element   |  IfcMaterialConstituentSet        |
 | Single material   |   IfcMaterial,  IfcMaterialList        |
 
-**INDSÆT PY KODE TIL HVORDAN VI FINDER ET MATERIALE UNDER MATERIALLAYERSET**
+Python code:
+
+```
+# Categorize exterior walls by number of material layers
+
+walls_with_one_layer = []
+walls_with_multiple_layers = []
+
+for wall in exterior_walls:
+    for rel in ifc_file.get_inverse(wall):
+        if rel.is_a("IfcRelAssociatesMaterial"):
+            mat = rel.RelatingMaterial
+
+            # Support both LayerSetUsage and LayerSet
+            if mat.is_a("IfcMaterialLayerSetUsage"):
+                layer_set = mat.ForLayerSet
+            elif mat.is_a("IfcMaterialLayerSet"):
+                layer_set = mat
+            else:
+                continue
+
+            num_layers = len(layer_set.MaterialLayers)
+            if num_layers > 1:
+                walls_with_multiple_layers.append(wall)
+            elif num_layers == 1:
+                walls_with_one_layer.append(wall)
+            break
+```
+
+This code identifies the material assigned to each exterior wall by following the IfcRelAssociatesMaterial relationship, which links a wall to its material definition. It supports both IfcMaterialLayerSetUsage and IfcMaterialLayerSet, counts the number of layers in the material set, and then categorizes each wall based on whether it has one or multiple layers.
 
 ---
 
@@ -45,6 +109,7 @@ This attibute can applied to layered elements, profiles or be arranged by identi
 - Inconsistence between defined BIM material name and e.g, Tabel 7 2025 material name
 - Language difference
 - Difficult to make it automatic
+
 
 **EVT INDSÆT PY KODE TIL HVORDAN VI ÅBNER EXCELFIL?**
 

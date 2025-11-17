@@ -1,17 +1,21 @@
-# About our tool
+# A3
+Hi, and welcome to the description of our tool!
 
-This tool links the geometric data of external walls extracted from IFC files with Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall materials, enabling architects and engineers to easily compare multiple building design options in terms of their environmental impact.
+In the sections below, you will be guided through the development and reasoning for our tool, a detailed step-by-step guide on how to use our tool, and finally how it is related to Advanced Building Design. 
+
+## About our tool
+
+This tool links the geometric data of external walls extracted from IFC files with generic Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall materials, enabling architects and engineers to easily compare multiple building design options in terms of their environmental impact.
+
+We developed the tool, as we found calculating the GWP was non-automatic and time-consuming in the Danish software _LCAbyg_. Therefore, our tool optimize this problem by making the process of comparing different scenarios easier, faster, and more organized. 
 
 In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions. If the tool was to be developed furter, all the rest of the building components were to be included for GWP calculations and comparison. 
 
 ----
 
-We developed the tool, as we found calculating the GWP was non-automatic and time-consuming in the Danish software _LCAbyg_. Therefore, our tool optimize this problem by making the process of comparing different scenarios easier, faster, and more organized. 
+The IFC test file used under the development of the tool, is _25-16-D-ARCH_, computed by Group 16 during the DTU course Advanced Building Design in the spring 2025, and the appertaining report _25_16_D_MAT_. 
 
-**State where you found that problem.**
-
-
-
+As the tool is a GWP comparison tool only suitable for generic EPD's, a specific problem from the report have not been identified. Instead, the report have been used as a basis for the comparison idea, as the report states different GWP values for different materials. These materials are, unfortunately, connected to product specific EPD's, and therefore, it has not been possible to state the report's claim. 
 
 ----
 ## Description of our tool
@@ -60,22 +64,25 @@ As you asses the GWP for your chosen materials, you will be asked if you want to
 
 The tool ends here - thank you for trying it out!
 
+If you are intrested, the flowchart for our tool is illustrated in the figure below: 
 
 **Updated BPMN-diagram**
 ![BPMN](IMG/Group-32.svg)
 
-# Advanced Building Design
+## Advanced Building Design
 
-What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+_What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?_
 
-Our tool would be useful in stage C (Detailed Design / Environmental Analysis). - CHECK IGENNEM
-At this stage, we know the main materials and can check their environmental impact using this tool.
+Our tool would be useful in stage C (Detailed Design / Environmental Analysis). 
+At this stage, we have decided on the main materials and can check their environmental impact using this tool.
 
-- Which subjects might use it?
+However, the tool would also be useful in stage D, as it simply can calculate GWP. 
+
+_Which subjects might use it?_
 
 This tool could be used in Life Cycle Assessment (LCA), Advanced Building Design, or in any course where students need to calculate and compare the Global Warming Potential (GWP) of materials from an IFC model.
 
-What information is required in the model for your tool to work?
+_What information is required in the model for your tool to work?_
 
 - Material names
 - Wall layers from a BIM model (IFC)
