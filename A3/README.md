@@ -90,8 +90,8 @@ The tool is dependent on the listed different quantities, material names and mor
 
 - External walls
 - Wall layer(s)
-       - Material names assigned to the different material layers
-       - Volumes and thickness for each layer
+- Material names assigned to the different material layer(s)
+- Volumes and thickness for each layer
 
 - Table 7 of BR18 (not implemented in the model, but necessary for the tool to work)
 
