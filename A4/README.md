@@ -20,6 +20,7 @@ When conducting a LCA, the units are very important, as they relate the material
 
 Python code:
 
+```
 unit_assignment = ifc_file.by_type("IfcUnitAssignment")
 
 if not unit_assignment:
@@ -52,6 +53,8 @@ else:
         print("----------------------------------------------")
         print(f"Defined in the IFC model is the following unit for material layer thickess: {length_unit_str}")
         print("----------------------------------------------")
+
+```
 
 This code checks the IFC file to identify which length unit is used (e.g., millimeters, centimeters, or meters). It looks for the IfcUnitAssignment, finds the length unit, and sets a matching conversion factor. If no valid unit is found, it defaults to “UNKNOWN” and a factor of 1. Finally, it prints the detected unit for the material layer thickness.
 
