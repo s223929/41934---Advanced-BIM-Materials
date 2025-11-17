@@ -25,7 +25,7 @@ material_units = {}
 calculated_unit = "m³"
 allowed_units = {"kg", "m²", "m² with R=1 m²K/W", "m³", "ton"}
 
-print("\nAssign a Sorterings ID to each material found in the wall:")
+print("\nAssign a Sorterings ID from Table 7 to each material found in the wall:")
 
 for material_name, data in layer_volumes_summary.items():
     volume = data["volume"]

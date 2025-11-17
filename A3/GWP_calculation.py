@@ -33,6 +33,6 @@ for r in results:
     gwp = gwp_per_material.get(material_ifc)
 
     if gwp is None:
-        print(f"\n- IFC material: {material_ifc} | EPD: {epd_name} | Calculation failed!")
+        print(f"- IFC material: {material_ifc} | EPD: {epd_name} | Calculation failed!")
     else:
-        print(f"\n- IFC material: {material_ifc} | EPD: {epd_name} | GWP: {round(gwp, 2)} kg CO2-eq / {unit}")
+        print(f"- IFC material: {material_ifc} | EPD: {epd_name} | GWP: {round(gwp, 2)} kg CO2-eq / {unit}")
