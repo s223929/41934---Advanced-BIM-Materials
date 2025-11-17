@@ -59,7 +59,7 @@ By applying this, the code finds the length unit, and applies the correct conver
 The materials are one of the basis of LCA, and in BIM they can be extracted and defined in many different ways. 
 
 A crucical attribute to know is:
-> **IfcRelAssociatesMaterial:** an objectified relationship between a material definition and elements or element types to which this material definition applies.
+> [**IfcRelAssociatesMaterial:**](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcRelAssociatesMaterial.htm) an objectified relationship between a material definition and elements or element types to which this material definition applies.
 
 This attibute can be applied to layered elements, profiles or be arranged by identified part of a component based element: 
 
