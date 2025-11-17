@@ -9,7 +9,7 @@ This tool links the geometric data of external walls extracted from IFC files wi
 
 We developed the tool, as we found calculating the GWP was non-automatic and time-consuming in the Danish software _LCAbyg_. Therefore, our tool optimize this problem by making the process of comparing different scenarios easier, faster, and more organized. 
 
-In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions. If the tool was to be developed furter, all the rest of the building components were to be included for GWP calculations and comparison. 
+In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions. If the tool was to be developed further, all the rest of the building components were to be included for GWP calculations and comparison. 
 
 ----
 
