@@ -38,7 +38,7 @@ To run the tool, the user must have the corresponding Excel file open.
 ----
 **SPØRG OM MAIN.PY**
 
-**Instructions to run the tool**
+## Instructions to run the tool
 
 To run the GWP comparison tool, please follow the instructions listed below:
 
@@ -66,7 +66,7 @@ The tool ends here - thank you for trying it out!
 
 If you are intrested, the flowchart for our tool is illustrated in the figure below: 
 
-**Updated BPMN-diagram**
+**BPMN-diagram**
 ![BPMN](IMG/Group-32.svg)
 
 ## Advanced Building Design
@@ -76,18 +76,24 @@ _What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?_
 Our tool would be useful in stage C (Detailed Design / Environmental Analysis). 
 At this stage, we have decided on the main materials and can check their environmental impact using this tool.
 
-However, the tool would also be useful in stage D, as it simply can calculate GWP. 
+However, the tool would also be useful in stage D, as it simply can assist in calculating the final GWP. 
+
 
 _Which subjects might use it?_
 
-This tool could be used in Life Cycle Assessment (LCA), Advanced Building Design, or in any course where students need to calculate and compare the Global Warming Potential (GWP) of materials from an IFC model.
+Since the tool is developed for GWP comparison for building components, it could be used in any subject, where calculating the GWP is relevant. This could be a Life Cycle Assessment (LCA) course with focus on buildings, or the Advanced Building Design course - especially, suitable for the [Role of Material consultant](https://timmcginley.github.io/41936/Subjects/Materials/index.html). 
+
 
 _What information is required in the model for your tool to work?_
 
-- Material names
-- Wall layers from a BIM model (IFC)
+The tool is dependent on the listed different quantities, material names and more defined in the IFC model: 
+
+- External walls
+- Wall layer(s)
+- Material names assigned to the different material layer(s)
 - Volumes and thickness for each layer
-- EPD excel file (Table 7 - Bygningsreglementet2018)
+
+- Table 7 of BR18 (not implemented in the model, but necessary for the tool to work)
 
 ---
 ### 04 IDS
