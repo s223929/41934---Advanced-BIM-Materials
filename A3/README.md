@@ -43,12 +43,12 @@ To run the tool, the user must have the corresponding Excel file open.
 To run the GWP comparison tool, please follow the instructions listed below:
 
 1. Download the Python scripts (7 files in total)  and _Tabel-7-2025.xlsx_. Be sure to save all files in the same folder.
-2. Run the _GWP_comparison.py_ file
+2. Run the _main.py_ file
 
 The script uses input from you (the user), and what you have to input will now be described:
 
 3. Choose your IFC file
-     - The script will automatically open a folder on your folder, where you can navigate to your IFC file)
+     - The script will automatically open a folder on your computer, where you can navigate to your IFC file)
 5. Choose the External wall, for which you want to calculate GWP
 6. Choose the specific _"Sorterings ID"_ related to the EPD(s) you want to map to your External wall's material layer(s)
      - Do this as many times as you have material layers and the script will calculte the GWP 
@@ -64,7 +64,7 @@ As you asses the GWP for your chosen materials, you will be asked if you want to
 
 The tool ends here - thank you for trying it out!
 
-If you are intrested, the flowchart for our tool is illustrated in the figure below: 
+If you are interested, the flowchart for our tool is illustrated in the figure below: 
 
 **BPMN-diagram**
 ![BPMN](IMG/Group-32.svg)
