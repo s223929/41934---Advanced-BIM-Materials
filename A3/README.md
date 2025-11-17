@@ -102,17 +102,15 @@ This section presents the baseline for making a full IDS. Below is stated the re
 
 | Name | IFC Parameter / Property sets | Reason for requirement |
 | ------- | ------- | ----------- |
-| Wall | IfcWall | The tool can only calculate GWP for external walls at this stage |
+| Wall | IfcWall / IfcWallStandardCase| The tool can only calculate GWP for external walls at this stage |
 | External wall | Pset_WallCommon => IsExternal | There is not a "IfcExternalWall", so to define a wall as external, the "IsExternal" must be "True" |
-| Material| IfcMaterial | To calculate GWP, materials must be defined |
-| Material layer | IfcMaterialLayer | The materials for wall layers, are almost always defined under this attribute |
-| Material layer | IfcMaterialLayerSet | The materials for wall layers, are almost always defined under this attribute |
-| Unit | - | Text |
-| Area | Dimensions => Area | Text |
-| Volume | Dimensions => Volume | Text |
-| Length | Dimensions => Length | Text |
-| Lenght | Length Unit | Text |
-|  | - | Text |
-
+| Material| IfcMaterial | This attribute is the basic entity for material designation and definition |
+| Material layer | IfcMaterialLayer |  This attribute is a single and identifiable part of an element which is constructed of a number of layers with a constant thickness |
+| Material layer | IfcMaterialLayerSet | This attribute is for layered elements, thereby also walls, with an indication of the layering direction and individual layer thicknesses |
+| Material layer | IfcMaterialLayerSetUsage | This attribute should only be associated with individual occurrences |
+| Unit | IfcUnitAssignment | Establishes a set of units which will be used globally within the project, if not otherwise defined |
+| Area | Dimensions => Area | Is necessary for calculating GWP of the material |
+| Volume | Dimensions => Volume | Is necessary for calculating GWP of the material |
+| Length | Dimensions => Length | Is necessary for calculating GWP of the material |
 
 ---
