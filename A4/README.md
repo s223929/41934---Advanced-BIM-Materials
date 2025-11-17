@@ -121,3 +121,12 @@ df.columns = [str(c).strip() for c in df.columns]
 **More of the code**????
 
 This code loads the Table 7 Excel file and prepares it for use. It first constructs the full file path, reads the first sheet into a Pandas DataFrame, and then cleans the column names by removing any extra whitespace.
+
+---
+
+- Identification of role and role learning level that you are targeting 1,2 or 3. please check the different roles to see the levels. = Analyst
+
+- Address your specific focus area and BIM use. = Materials
+
+
+
