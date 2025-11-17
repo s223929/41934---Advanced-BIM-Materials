@@ -10,7 +10,10 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 1. Units, units and units
 2. Extraction of materials and how it's all related
 3. I have my materials - but what now?
- 
+
+Below, you will be presented for three code snippets, which all are a part of our _GWP comparison tool_. If you want, you can acces our tool [here](https://github.com/s223929/41934---Advanced-BIM-Materials/tree/d6ef7899e92505dc540d1205c10871eb4c35e614/A3)!
+
+
 ---
 
 ### 1. Units, units and units
