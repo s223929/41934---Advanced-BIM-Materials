@@ -103,7 +103,7 @@ This section presents the baseline for making a full IDS. Below is stated the re
 | Name | IFC Parameter / Property sets | Reason for requirement |
 | ------- | ------- | ----------- |
 | Wall | IfcWall / IfcWallStandardCase| The tool can only calculate GWP for external walls at this stage |
-| External wall | Pset_WallCommon => IsExternal | There is not a "IfcExternalWall", so to define a wall as external, the "IsExternal" must be "True" |
+| External wall | [Pset_WallCommon](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_WallCommon.htm) => [IsExternal](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/property/IsExternal.htm) | There is not a "IfcExternalWall", so to define a wall as external, the "IsExternal" must be "True" |
 | Material| [IfcMaterial](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterial.htm) | This attribute is the basic entity for material designation and definition |
 | Material layer | [IfcMaterialLayer](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayer.htm) |  This attribute is a single and identifiable part of an element which is constructed of a number of layers with a constant thickness |
 | Material layer | [IfcMaterialLayerSet](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialLayerSet.htm) | This attribute is for layered elements, thereby also walls, with an indication of the layering direction and individual layer thicknesses |
