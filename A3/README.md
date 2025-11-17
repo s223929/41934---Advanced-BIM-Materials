@@ -1,18 +1,20 @@
 # About our tool
 
-This tool links the geometric data of external walls extracted from IFC files with Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall material scenarios, enabling designers to easily compare multiple design options in terms of their environmental impact.
+This tool links the geometric data of external walls extracted from IFC files with Environmental Product Declaration (EPD) data provided in Table 7 of BR18. It calculates the Global Warming Potential (GWP) for various user-defined wall materials, enabling architects and engineers to easily compare multiple building design options in terms of their environmental impact.
 
-In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions.
+In other words, the tool is not only a calculation tool, but also a comparison tool that supports better and more sustainable design decisions. If the tool was to be developed furter, all the rest of the building components were to be included for GWP calculations and comparison. 
 
 ----
 
-We found calculating the GWP was non-automatic and time-consuming in the traditional software _LCAbyg_. Our tool helps solve this by making the process of comparing different scenarios easier and more organized. 
+We developed the tool, as we found calculating the GWP was non-automatic and time-consuming in the Danish software _LCAbyg_. Therefore, our tool optimize this problem by making the process of comparing different scenarios easier, faster, and more organized. 
 
 **State where you found that problem.**
 
 
 
+
 ----
+## Description of our tool
 
 Our tool is divided into several smaller Python scripts to make future changes or updates easier.
 
@@ -33,24 +35,26 @@ To run the tool, the user must have the corresponding Excel file open.
 **SPØRG OM MAIN.PY**
 
 **Instructions to run the tool**
+
 To run the GWP comparison tool, please follow the instructions listed below:
 
-1. Download the Python scripts (7 files in total)  and __Tabel-7-2025.xlsx__. Be sure to save all files in the same folder.
-2. Run the __GWP_comparison.py__ file
+1. Download the Python scripts (7 files in total)  and _Tabel-7-2025.xlsx_. Be sure to save all files in the same folder.
+2. Run the _GWP_comparison.py_ file
 
 The script uses input from you (the user), and what you have to input will now be described:
 
 3. Choose your IFC file
      - The script will automatically open a folder on your folder, where you can navigate to your IFC file)
 5. Choose the External wall, for which you want to calculate GWP
-6. Choose the specific "Sorterings ID" related to the EPD(s) you want to map to your External wall's material layer(s)
+6. Choose the specific _"Sorterings ID"_ related to the EPD(s) you want to map to your External wall's material layer(s)
      - Do this as many times as you have material layers and the script will calculte the GWP 
-7. NOTE: the tool is only compatible for specific pre-defined units, which are suitable for wall materials, meaning that if you choose a "Sorterings ID" related to one of these non-compatible units, you will be asked to choose a new "Sorterings ID"
+7. NOTE: the tool is only compatible for specific pre-defined units, which are suitable for wall materials, meaning that if you choose a _"Sorterings ID"_ related to one of these non-compatible units, you will be asked to choose a new _"Sorterings ID"_
 
 As you asses the GWP for your chosen materials, you will be asked if you want to compare different materials' GWP (you can do this as many times as you want): 
 
-8. Choose between "y" (yes) or "n" (no)
-9. Choose the specific "Sorterings ID" related to the EPD(s) you want to map to your External wall's material layer(s)
+8. Choose between _"y"_ (yes) or _"n"_ (no)
+9. If _no_, thank you for trying our tool
+10. If _yes_, choose the specific _"Sorterings ID"_ related to the EPD(s) you want to map to your External wall's material layer(s)
     - Do this as many times as you have material layers and the script will calculte the GWP
 11. Choose if you want to export your results to Excel
 
