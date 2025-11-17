@@ -48,7 +48,7 @@ To run the GWP comparison tool, please follow the instructions listed below:
 The script uses input from you (the user), and what you have to input will now be described:
 
 3. Choose your IFC file
-     - The script will automatically open a folder on your computer, where you can navigate to your IFC file)
+     - The script will automatically open a folder on your computer, where you can navigate to your IFC file
 5. Choose the External wall, for which you want to calculate GWP
 6. Choose the specific _"Sorterings ID"_ related to the EPD(s) you want to map to your External wall's material layer(s)
      - Do this as many times as you have material layers and the script will calculte the GWP 
@@ -98,7 +98,21 @@ The tool is dependent on the listed different quantities, material names and mor
 ---
 ## Initial IDS
 
+This section presents the baseline for making a full IDS. Below is stated the required IFC parameters necessary from the IFC model to run the tool:
 
+| Name | IFC Parameter / Property sets | Reason for requirement |
+| ------- | ------- | ----------- |
+| Wall | IfcWall | The tool can only calculate GWP for external walls at this stage |
+| External wall | Pset_WallCommon => IsExternal | There is not a "IfcExternalWall", so to define a wall as external, the "IsExternal" must be "True" |
+| Material| IfcMaterial | To calculate GWP, materials must be defined |
+| Material layer | IfcMaterialLayer | The materials for wall layers, are almost always defined under this attribute |
+| Material layer | IfcMaterialLayerSet | The materials for wall layers, are almost always defined under this attribute |
+| Unit | - | Text |
+| Area | Dimensions => Area | Text |
+| Volume | Dimensions => Volume | Text |
+| Length | Dimensions => Length | Text |
+| Lenght | Length Unit | Text |
+|  | - | Text |
 
 
 ---
