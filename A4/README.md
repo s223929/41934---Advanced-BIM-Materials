@@ -106,7 +106,7 @@ This code identifies the material assigned to each exterior wall by following th
 Even after extracting the materials from your BIM model, several challenges remain:
 
 - Inconsistencies between BIM material names and the official names used in databases (e.g., Table 7 Bygningsreglementet), which makes direct matching unreliable.
-- Language differences, such as materials defined in Danish while databases use English terminology.
+- Language differences, such as materials defined in other languages (e.g. Danish) while databases use English terminology.
 - Difficult to fully automate, because the workflow still requires manually selecting the correct material from Table 7 and entering it into the tool. Only then can the tool pull the corresponding values from the Excel file. In other words, the process is not 100% automatic.
 
 Here is the code needed to open Table 7 and use it within your own Python script:
