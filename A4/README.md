@@ -120,6 +120,6 @@ This code loads the Table 7 Excel file and prepares it for use. The Excel file m
 
 ### Role targeting
 
-We target the Analyst role...
+We target the Analyst Level 3 role, as the tool is developed as a standalone Python script using IfcOpenShell for a specific purpose: performing LCA within a BIM workflow.
 
-Our specific focus area and BIM use in this context is Materials.
+Our focus area and BIM use case in this context is Materials.
