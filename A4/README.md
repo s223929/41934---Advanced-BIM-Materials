@@ -56,7 +56,7 @@ else:
 
 ```
 
-This code checks the IFC file to identify which length unit is used (e.g., millimeters, centimeters, or meters). It looks for the IfcUnitAssignment, finds the length unit, and sets a matching conversion factor. If no valid unit is found, it defaults to “UNKNOWN” and a factor of 1. Finally, it prints the detected unit for the material layer thickness.
+This code checks the IFC file to identify which length unit is used (e.g., millimeters, centimeters, or meters). It looks for the IfcUnitAssignment, finds the length unit, and applies the correct conversion factor so that all values are converted to meters.
 
 ---
 
