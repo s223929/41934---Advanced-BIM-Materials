@@ -13,7 +13,6 @@ Therefore, this teaching tutorial will highlight three "_good-to-know before you
 
 Below, you will be presented for three code snippets, which all are a part of our _GWP comparison tool_. If you want, you can acces our tool [here](https://github.com/s223929/41934---Advanced-BIM-Materials/tree/d6ef7899e92505dc540d1205c10871eb4c35e614/A3)!
 
-
 ---
 
 ### 1. Units, units and units
@@ -131,3 +130,9 @@ This code loads the Table 7 Excel file and prepares it for use. The Excel file m
 We target the _Analyst Level 3_ role, as the tool is developed as a standalone Python script using IfcOpenShell for a specific purpose: performing GWP calulation and comparison within a BIM workflow.
 
 Our focus area and BIM use case in this context is _Materials_.
+
+---
+
+### Video
+
+You can access our video that explains our A3 and A4 [here](https://www.youtube.com/watch?v=mbRIDSMxS1Q)!
