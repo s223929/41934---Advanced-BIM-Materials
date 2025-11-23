@@ -137,5 +137,6 @@ Our focus area and BIM use case in this context is _Materials_.
 
 You can access our video that explains our A3 and A4 
 
-[![HERE](https://img.youtube.com/vi/mbRIDSMxS1Q/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=mbRIDSMxS1Q))
-
+[![41934 - A4 Group 32
+](https://img.youtube.com/vi/mbRIDSMxS1Q/0.jpg)](https://www.youtube.com/watch?v=mbRIDSMxS1Q "41934 - A4 Group 32
+")
