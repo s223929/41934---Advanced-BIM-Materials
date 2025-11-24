@@ -21,15 +21,15 @@ did the tool address the use case you identified?
 
 ### (Individual) Your future for Advanced use of OpenBIM
 
-**Caroline**
+**s216096- Caroline**
 - are you likely to use OpenBIM tools in your thesis?
 - are you likely to use OpenBIM tools in your professsional life in the next 10 years?
   
-**Marie**
+**s223929 - Marie**
 - are you likely to use OpenBIM tools in your thesis?
 - are you likely to use OpenBIM tools in your professsional life in the next 10 years?
   
-**Oline**
+**s223898 - Oline**
 - are you likely to use OpenBIM tools in your thesis?
 - are you likely to use OpenBIM tools in your professsional life in the next 10 years?
 
@@ -37,11 +37,11 @@ did the tool address the use case you identified?
 ### (Individual) Wrap up
 conclude the journey through A1-A5
 
-**Caroline**
+**s216096 - Caroline**
 
-**Marie**
+**s223929 - Marie**
 
-**Oline**
+**s223898 - Oline**
 
 
 
