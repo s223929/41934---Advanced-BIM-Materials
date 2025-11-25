@@ -7,7 +7,7 @@ The group members:
   
 ---
 
-### Your learning experience for the concept you focused on.
+### Your learning experience for the concept you focused on (answered by the group)
 - Identify your own level at the beginning of this course and where you ended
 
 - What else do you still need to learn?
@@ -16,7 +16,7 @@ The group members:
 
 ---
 
-### Your process of developing the tutorial
+### Your process of developing the tutorial (answered by the group)
 - Did the process of the course enable you to answer or define questions that you might need later for thesis?
   
 Yeah... OpenBIM is cool, but very challenging.
@@ -32,7 +32,7 @@ Overall, yes. We think that the number of tools aligned with our own development
 
 ---
 
-### (As a group) summary of the feedback you received on your tutorial
+### Summary of the feedback you received on your tutorial (answered by the group)
 Did the tool address the use case you identified?
 
 Our A3 tool addresses the overall goals of an LCA, as it is scripted to both calculate GWP and compare the GWP of materials for exterior walls. 
@@ -42,7 +42,7 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
 
 ---
 
-### (Individual) Your future for Advanced use of OpenBIM
+### Your future for Advanced use of OpenBIM (answered individually)
 
 **s216096**
 - Are you likely to use OpenBIM tools in your thesis?
@@ -61,7 +61,7 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
 Hopefully, yes, as it would optimize many manual processes. As the building sector (very) slowly transitions to becoming more digital—collaborating across sectors and adopting new, more effective tools, I am sure that OpenBIM will be implemented along the way. Furthermore, with the ongoing integration of AI, coding, and similar technologies across most sectors, I believe it is almost inevitable that OpenBIM will not play a role in professional my life within the next 10 years.
 
 ---
-### (Individual) Wrap up
+### Wrap up (answered individually)
 conclude the journey through A1-A5
 
 **s216096**
