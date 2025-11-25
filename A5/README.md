@@ -1,6 +1,6 @@
 ## Reflect
 
-The group members
+The group members:
 - s216096 - Caroline Riemer Thøgersen
 - s223929 - Marie Pedersen
 - s223898 - Oline Mei Mervig
@@ -18,6 +18,7 @@ The group members
 
 ### Your process of developing the tutorial
 - Did the process of the course enable you to answer or define questions that you might need later for thesis?
+  
 Yeah... OpenBIM is cool, but very challenging.
   
 - Would you have preferred to have been given less choice in the use cases?
@@ -26,6 +27,7 @@ Yes and no. Since (almost) no boundaries for choosing use cases were defined, it
 
   
 - Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
+- 
 Overall, yes. We think that the number of tools aligned with our own development throughout the course. However, we think that the guidelines for the A4 tutorial tool were a bit difficult to understand, which is also why, we guess that some groups only presented their A3 tools and some other groups presented something quite different. 
 
 ---
@@ -43,19 +45,18 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
 ### (Individual) Your future for Advanced use of OpenBIM
 
 **s216096**
-- are you likely to use OpenBIM tools in your thesis?
-- are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+- Are you likely to use OpenBIM tools in your thesis?
+- Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
   
 **s223929**
-- are you likely to use OpenBIM tools in your thesis?
-- are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+- Are you likely to use OpenBIM tools in your thesis?
+- Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
   
 **s223898**
-- are you likely to use OpenBIM tools in your thesis?
-  
-... maybe
+- Are you likely to use OpenBIM tools in your thesis?
 
-- are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+  
+- Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
   
 Hopefully, yes, as it would optimize many manual processes. As the building sector (very) slowly transitions to becoming more digital—collaborating across sectors and adopting new, more effective tools, I am sure that OpenBIM will be implemented along the way. Furthermore, with the ongoing integration of AI, coding, and similar technologies across most sectors, I believe it is almost inevitable that OpenBIM will not play a role in professional my life within the next 10 years.
 
