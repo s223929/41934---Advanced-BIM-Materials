@@ -1,6 +1,8 @@
 ## Summary
 Title: How to LCA in BIM
+
 Category: Materials / LCA / Materials / Sustainability Assessment
+
 Description: Want to conduct an LCA directly from BIM without running into unit errors or missing materials? Stay tuned! This tutorial will present three key factors that simplify GWP calculations using an IFC file and our A3 tool.
 
 
