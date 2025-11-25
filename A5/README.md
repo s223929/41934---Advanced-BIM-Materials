@@ -8,32 +8,32 @@ The group members:
 ---
 
 ### Your learning experience for the concept you focused on (answered by the group)
-- Identify your own level at the beginning of this course and where you ended
+- _Identify your own level at the beginning of this course and where you ended_
 
-- What else do you still need to learn?
+- _What else do you still need to learn?_
   
-- How you might use OpenBIM in the future?
+- _How you might use OpenBIM in the future?_
 
 ---
 
 ### Your process of developing the tutorial (answered by the group)
-- Did the process of the course enable you to answer or define questions that you might need later for thesis?
+- _Did the process of the course enable you to answer or define questions that you might need later for thesis?_
   
 Yeah... OpenBIM is cool, but very challenging.
   
-- Would you have preferred to have been given less choice in the use cases?
+- _Would you have preferred to have been given less choice in the use cases?_
 
 Yes and no. Since (almost) no boundaries for choosing use cases were defined, it was very difficult to decide what to focus on. On one hand, we felt we had too many options due to the lack of restrictions; on the other hand, we felt very limited because of our chosen focus area. In retrospect, we think it was a good challenge for us to define what we wanted to focus on ourselves, as most courses we have previously attended at DTU had strict guidelines. Those undoubtedly made it easier to start tasks quickly and efficiently, but perhaps left less room for reflection on what we wanted to work on.
 
   
-- Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
+- _Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?_
   
 Overall, yes. We think that the number of tools aligned with our own development throughout the course. However, we think that the guidelines for the A4 tutorial tool were a bit difficult to understand, which is also why, we guess that some groups only presented their A3 tools and some other groups presented something quite different. 
 
 ---
 
 ### Summary of the feedback you received on your tutorial (answered by the group)
-Did the tool address the use case you identified?
+_Did the tool address the use case you identified?_
 
 Our A3 tool addresses the overall goals of an LCA, as it is scripted to both calculate GWP and compare the GWP of materials for exterior walls. 
 Therefore, yes, our tool addresses the identified use case, since the case focused on comparing GWP. However, we did not explicitly state whether a report statement was correct or incorrect; instead, we emphasized the importance of assessing different materials.
@@ -45,24 +45,24 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
 ### Your future for Advanced use of OpenBIM (answered individually)
 
 **s216096**
-- Are you likely to use OpenBIM tools in your thesis?
-- Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+- _Are you likely to use OpenBIM tools in your thesis?_
+- _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
   
 **s223929**
-- Are you likely to use OpenBIM tools in your thesis?
-- Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+- _Are you likely to use OpenBIM tools in your thesis?_
+- _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
   
 **s223898**
-- Are you likely to use OpenBIM tools in your thesis?
+- _Are you likely to use OpenBIM tools in your thesis?_
 
   
-- Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+- _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
   
 Hopefully, yes, as it would optimize many manual processes. As the building sector (very) slowly transitions to becoming more digital—collaborating across sectors and adopting new, more effective tools, I am sure that OpenBIM will be implemented along the way. Furthermore, with the ongoing integration of AI, coding, and similar technologies across most sectors, I believe it is almost inevitable that OpenBIM will not play a role in professional my life within the next 10 years.
 
 ---
 ### Wrap up (answered individually)
-conclude the journey through A1-A5
+_Conclude the journey through A1-A5_
 
 **s216096**
 
