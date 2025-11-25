@@ -27,7 +27,7 @@ Yes and no. Since (almost) no boundaries for choosing use cases were defined, it
 
   
 - Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
-- 
+  
 Overall, yes. We think that the number of tools aligned with our own development throughout the course. However, we think that the guidelines for the A4 tutorial tool were a bit difficult to understand, which is also why, we guess that some groups only presented their A3 tools and some other groups presented something quite different. 
 
 ---
