@@ -47,9 +47,11 @@ The recieved feedback on our A4 tutorial (which highlighted three main difficult
   
 **s223898**
 - are you likely to use OpenBIM tools in your thesis?
+  
 ... maybe
 
 - are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+  
 Hopefully, yes, as it would optimize many manual processes. As the building sector (very) slowly transitions to becoming more digital—collaborating across sectors and adopting new, more effective tools, I am sure that OpenBIM will be implemented along the way. Furthermore, with the ongoing integration of AI, coding, and similar technologies across most sectors, I believe it is almost inevitable that OpenBIM will not play a role in professional my life within the next 10 years.
 
 ---
