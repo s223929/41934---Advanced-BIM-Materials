@@ -10,11 +10,11 @@ The group members:
 ### Your learning experience for the concept you focused on (answered by the group)
 - _Identify your own level at the beginning of this course and where you ended_
 
-At the start of the course, we were all relatively new to BIM and had only worked with it as BIM modellers. By the end, we gained more confidence in analysing and working with BIM models and developed a clearer understanding of both the advantages and challenges of BIM. We now consider our level to be _Self Learners_ of BIM.
+At the start of the course, we were all relatively new to BIM and had only worked with it as BIM modellers in a few previous courses. By the end of this course, we have gained more confidence in analysing and working with BIM models and developed a clearer understanding of both the advantages and challenges of BIM. We now consider ourselves to be at the _Self Learners_ level of BIM.
 
 - _What else do you still need to learn?_
 
-We still need to improve our understanding of how BIM-related data and information connect and how to streamline these processes in practice.
+We still need to improve our understanding of how BIM-related data and information connect and how to streamline these processes in practice and across disciplines. 
   
 - _How you might use OpenBIM in the future?_
 
@@ -53,18 +53,23 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
 
 **s216096**
 - _Are you likely to use OpenBIM tools in your thesis?_
-- _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
+- _Are you likely to use OpenBIM tools in your professional life in the next 10 years?_
   
 **s223929**
 - _Are you likely to use OpenBIM tools in your thesis?_
-- _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
-  
+
+Although I have not yet chosen a thesis topic, I expect that I may use OpenBIM tools. This course has shown that OpenBIM can be applied across many areas of a building project (structures, indoor environment, cost, etc.), so it is definitely worth keeping in mind for perspective.
+
+- _Are you likely to use OpenBIM tools in your professional life in the next 10 years?_
+
+It seems like the (very conservative) building sector is gradually becoming more open to adopting OpenBIM in professional practice. Also, with more and more newly educated professionals entering the industry, I think we will see a shift toward wider use of OpenBIM tools. Therefore, I expect to be able to use OpenBIM tools in my professional life within the next 10 years. 
+
 **s223898**
 - _Are you likely to use OpenBIM tools in your thesis?_
   
 I think I would have to develop my skills quite a bit to use OpenBim in my master thesis. But my plan (at least for now) is to write my thesis with LCA as the focus area - so, if I should implement OpenBIM, I could definetely use the knowledge I have gained during the development of our tool. 
   
-- _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
+- _Are you likely to use OpenBIM tools in your professional life in the next 10 years?_
   
 Hopefully, yes, as it would optimize many manual processes. As the building sector (very) slowly transitions to becoming more digital—collaborating across sectors and adopting new, more effective tools, I am sure that OpenBIM will be implemented along the way. Furthermore, with the ongoing integration of AI, coding, and similar technologies across most sectors, I believe it is almost inevitable that OpenBIM will not play a role in professional my life within the next 10 years.
 
