@@ -9,12 +9,15 @@ The group members:
 
 ### Your learning experience for the concept you focused on (answered by the group)
 - _Identify your own level at the beginning of this course and where you ended_
+
 At the start of the course, we were all relatively new to BIM and had only worked with it as BIM modellers. By the end, we gained more confidence in analysing and working with BIM models and developed a clearer understanding of both the advantages and challenges of BIM. We now consider our level to be _Self Learners_ of BIM.
 
 - _What else do you still need to learn?_
+
 We still need to improve our understanding of how BIM-related data and information connect and how to streamline these processes in practice.
   
 - _How you might use OpenBIM in the future?_
+
 We expect to use OpenBIM in our future professional work, especially for coordinating information across disciplines.
 
 
