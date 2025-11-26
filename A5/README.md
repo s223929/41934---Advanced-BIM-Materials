@@ -25,8 +25,8 @@ We expect to use OpenBIM in our future professional work, especially for coordin
 
 ### Your process of developing the tutorial (answered by the group)
 - _Did the process of the course enable you to answer or define questions that you might need later for thesis?_
-  
-Yeah... OpenBIM is cool, but very challenging.
+
+The course definetly increased our knowledge of OpenBIM - what the benefits are, but also which challenges it comes with. So to answer whether the course enabled us to answer of define questions that we might need for our individually thesis', yes to an extend.  
   
 - _Would you have preferred to have been given less choice in the use cases?_
 
@@ -61,7 +61,7 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
   
 **s223898**
 - _Are you likely to use OpenBIM tools in your thesis?_
-
+I think I would have to develop my skills quite a bit to use OpenBim in my master thesis. But my plan (at least for now) is to write my thesis with LCA as the focus area - so, if I should implement OpenBIM, I could definetely use the knowledge I have gained during the development of our tool. 
   
 - _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
   
