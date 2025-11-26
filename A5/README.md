@@ -61,6 +61,7 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
   
 **s223898**
 - _Are you likely to use OpenBIM tools in your thesis?_
+  
 I think I would have to develop my skills quite a bit to use OpenBim in my master thesis. But my plan (at least for now) is to write my thesis with LCA as the focus area - so, if I should implement OpenBIM, I could definetely use the knowledge I have gained during the development of our tool. 
   
 - _Are you likely to use OpenBIM tools in your professsional life in the next 10 years?_
