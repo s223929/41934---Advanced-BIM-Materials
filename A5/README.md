@@ -53,7 +53,12 @@ The feedback we received on our A4 tutorial (which highlighted three main diffic
 
 **s216096**
 - _Are you likely to use OpenBIM tools in your thesis?_
+
+I find OpenBIM very interesting, but I am still a bit unsure whether I will use it in my thesis, especially since I haven’t decided on the topic yet. But OpenBIM is still somewhat complex, yet it aligns well with areas such as building modelling, indoor climate and material usage. Because of this, OpenBIM may find a place in my thesis.
+  
 - _Are you likely to use OpenBIM tools in your professional life in the next 10 years?_
+
+The construction industry is gradually integrating OpenBIM, and it is becoming more widely adopted. Because of this development, it is quite likely that I will end up using OpenBIM in my professional life. I also found the presentations from SWECO and NEE very interesting, and I can easily see myself working in a company like that. I am excited to see where OpenBIM will be in 10 years.
   
 **s223929**
 - _Are you likely to use OpenBIM tools in your thesis?_
