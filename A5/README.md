@@ -87,6 +87,17 @@ _Conclude the journey through A1-A5_
 **s223929**
 
 **s223898**
+My personal journey through the A1-A5 assignment has been a steep learning curve. Before taking this course, I was not even aware that you could write a code capable of extracting quantities, materials, values etc. from an IFC file. So for A1, I was honestly just impressed that I/we could write code that actually worked. However, the problems related to extraction of materials already started here. I also think that using GitHub pushed me - in a good way - to adapt to a new collaborative workspace. 
+
+The A2 assignment gave me a good overview of the possibilities with openBIM and how the different elements are meant to connect in the "right" way. Furthermore, it introcuded me to Markdown, which I now think is pretty cool. 
+
+A3 was quite challenging both in terms of scripting and in terms of actually deciding what to script. I think this assignment challenged me the most, because we had endless possibilities for what we could code, yet limitations due to our focus area and the IFC models. 
+During the scripting, we ran into many difficulties, that we later choose to base our A4 assignment on. These challenges created a lot of questions and frustration, because it was often difficult to distinguish whether the issue came from my (low) scripting skills or from the IFc model simply not being detailed enough for what I wanted to extract. 
+Problems about inconsistant IFC and BIM units and not being able to automatically map materials to an EPD were frustrating, but they also highlighted what the building and architecture sector still needs to develop. What I gained most from this iterative process was learing to stay in a development mindset - something I don't do often, neither at DTU nor in my everyday life.
+
+I think that A4 reflected many of the same challenges as A3, partly because we worked on them simultaneously. Since we choose to highlight the three main issues when combining LCA with OpenBIM, I believe A4 gave me an even better understanding of both our A3 tool and OpenBIM in general (even though I am aware I have only scrathed the surface of its full potential). 
+
+Overall, I believe this journey has given me insight into a new way of thinking about engineering and the possibilities in the sector.
 
 
 
