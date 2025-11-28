@@ -87,6 +87,7 @@ _Conclude the journey through A1-A5_
 **s223929**
 
 **s223898**
+
 My personal journey through the A1-A5 assignment has been a steep learning curve. Before taking this course, I was not even aware that you could write a code capable of extracting quantities, materials, values etc. from an IFC file. So for A1, I was honestly just impressed that I/we could write code that actually worked. However, the problems related to extraction of materials already started here. I also think that using GitHub pushed me - in a good way - to adapt to a new collaborative workspace. 
 
 The A2 assignment gave me a good overview of the possibilities with openBIM and how the different elements are meant to connect in the "right" way. Furthermore, it introcuded me to Markdown, which I now think is pretty cool. 
