@@ -84,6 +84,18 @@ _Conclude the journey through A1-A5_
 
 **s216096**
 
+Even though I had taken a BIM course before, this process was something completely different, because I had never tried developing an actual tool or analyzing an IFC file through code. So even with a basic understanding of BIM, the beginning still felt quite challenging—mainly because combining Python with OpenBIM logic was completely new to me.
+
+In A1, I realized how much more complex BIM becomes when you don’t just model, but start extracting data and working with it. I went from being able to “work in models” to actually understanding IFC as a data structure. This was also when we agreed that we wanted to work with LCA, as it’s something we are all interested in.
+
+A2 gave me a better understanding of how data, materials, and processes connect on a more technical level, and it really helped me structure the workflow around our use case.
+
+A3 was definitely the most challenging part. Not because of BIM itself, but because I had never tried building a script that needed to produce a specific result that was actually useful. It required a lot of debugging and many attempts to get units, materials, and IFC relationships to work together.
+
+A4 made it clear why our A3 process had been so challenging. There are many pitfalls when you combine LCA, IFC, and Python. At the same time, it gave me a better understanding of which parts of BIM actually represent the biggest barriers to automation.
+
+All in all, A1–A5 taught me something completely new about BIM, how to move from model to data, and from data to functional tools. I entered the course with experience in BIM modelling, but I am leaving it with a much stronger understanding of OpenBIM, IFC structures, and coding. It has been challenging, but also incredibly motivating, and it’s definitely something I can use in the future.
+
 **s223929**
 
 **s223898**
