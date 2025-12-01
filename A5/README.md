@@ -45,12 +45,14 @@ _Did the tool address the use case you identified?_
 Our A3 tool addresses the overall goals of an LCA, as it is scripted to both calculate GWP and compare the GWP of materials for exterior walls. 
 Therefore, yes, our tool addresses the identified use case, since the case focused on comparing GWP. However, we did not explicitly state whether a report statement was correct or incorrect; instead, we emphasized the importance of assessing different materials.
 
-1) overall good work
-2) could be nice with automapping, however, challenge
-3) inhomogeneous layers
+The feedback we received on our tutorial and tool from the other group working within the materials focus area was as follows:
 
+1) The other materials group acknowledged the challenges we identified in A4 and thought that our tutorial provided a clear and useful overview of the issues related to the materials focus area and its relation to BIM.
+2) They suggested that automatic mapping of materials would be a valuable addition in future work, noting that it would be too extensive to implement within the time constraints of the course. Nevertheless, they agreed that our use of user prompts was an effective way to reduce errors when working with materials and BIM.
+3) They also raised a question about handling inhomogeneous layers and how this could be implemented in the tool (A3). As we had already considered this, we explained that the user can specify the volume percentage of each material within an inhomogeneous layer, and the tool will allow materials to be assigned accordingly.
+4) Overall, they found the tool helpful and well-designed.
 
-The feedback we received on our A4 tutorial (which highlighted three main difficulties encountered during the development of our A3 tool) was as follows: (1) at least one group indicated they would use our tutorial; (2) the another Materials group suggested that the tool/tutorial could be implemented in the A phase as well as later in the design phase; (3) the professor asked what caused us the biggest challenges, to which we responded: “the units, and the fact that we could not develop a tool capable of fully automatically calculating GWP without user input.”
+Additionally, based on our tutorial presentation, at least one group indicated that they intend to use our tutorial.
 
 ---
 
@@ -68,7 +70,7 @@ The construction industry is gradually integrating OpenBIM, and it is becoming m
 **s223929**
 - _Are you likely to use OpenBIM tools in your thesis?_
 
-Although I have not yet chosen a thesis topic, I expect that I may use OpenBIM tools. This course has shown that OpenBIM can be applied across many areas of a building project (structures, indoor environment, cost, etc.), so it is definitely worth keeping in mind for perspective.
+I do not currently plan to write my thesis specifically about OpenBIM. However, the course has shown that OpenBIM is relevant across many areas of a building project. Even if my thesis ends up focusing on something else, I will certainly keep it in mind as a valuable perspective.
 
 - _Are you likely to use OpenBIM tools in your professional life in the next 10 years?_
 
@@ -103,7 +105,17 @@ All in all, A1–A5 taught me something completely new about BIM, how to move fr
 
 **s223929**
 
-My learning journey through the course has been 
+I have learned a great deal through the assignments A1-A5. 
+
+For A1, although I have taken a few courses related to BIM during my bachelor's, I was impressed by how easy the IFC classification system made extracting data from a model. I was also surprised by the many challenges related to BIM information and data - since the aims and dreams of out furture tool quickly has a reality check as problems related to material extraction and mapping quickly arose. 
+
+For A2, we got to plan out the tool (A3). This forced me/us to reflect on what tool would actually be meaningful and create purpose. In addition, the BPMN diagram made me reflect a lot about the order of each of the steps, as each step had to be done in the right order to connect the data extracted to the edn goal. 
+
+When actually coding the script for A3, we got wiser in terms of the steps to code, why we updated the BPMN diagram for this assignment. In the process of coding the script, we ran into multiple challenges; for example of units, extraction of layered materials, and material mapping. 
+
+
+
+
 
 
 **s223898**
