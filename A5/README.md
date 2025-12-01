@@ -45,6 +45,11 @@ _Did the tool address the use case you identified?_
 Our A3 tool addresses the overall goals of an LCA, as it is scripted to both calculate GWP and compare the GWP of materials for exterior walls. 
 Therefore, yes, our tool addresses the identified use case, since the case focused on comparing GWP. However, we did not explicitly state whether a report statement was correct or incorrect; instead, we emphasized the importance of assessing different materials.
 
+1) overall good work
+2) could be nice with automapping, however, challenge
+3) inhomogeneous layers
+
+
 The feedback we received on our A4 tutorial (which highlighted three main difficulties encountered during the development of our A3 tool) was as follows: (1) at least one group indicated they would use our tutorial; (2) the another Materials group suggested that the tool/tutorial could be implemented in the A phase as well as later in the design phase; (3) the professor asked what caused us the biggest challenges, to which we responded: “the units, and the fact that we could not develop a tool capable of fully automatically calculating GWP without user input.”
 
 ---
@@ -97,6 +102,9 @@ A4 made it clear why our A3 process had been so challenging. There are many pitf
 All in all, A1–A5 taught me something completely new about BIM, how to move from model to data, and from data to functional tools. I entered the course with experience in BIM modelling, but I am leaving it with a much stronger understanding of OpenBIM, IFC structures, and coding. It has been challenging, but also incredibly motivating, and it’s definitely something I can use in the future.
 
 **s223929**
+
+My learning journey through the course has been 
+
 
 **s223898**
 
