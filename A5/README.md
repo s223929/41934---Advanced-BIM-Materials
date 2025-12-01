@@ -84,7 +84,7 @@ _Conclude the journey through A1-A5_
 
 **s216096**
 
-Even though I had taken a BIM course before, this process was something completely different, because I had never tried developing an actual tool or analyzing an IFC file through code. So even with a basic understanding of BIM, the beginning still felt quite challenging—mainly because combining Python with OpenBIM logic was completely new to me.
+Even though I had taken a BIM course before, this process was something completely different, because I had never tried developing an actual tool or analyzing an IFC file through code. So even with a basic understanding of BIM, the beginning still felt quite challenging, mainly because combining Python with OpenBIM logic was completely new to me.
 
 In A1, I realized how much more complex BIM becomes when you don’t just model, but start extracting data and working with it. I went from being able to “work in models” to actually understanding IFC as a data structure. This was also when we agreed that we wanted to work with LCA, as it’s something we are all interested in.
 
