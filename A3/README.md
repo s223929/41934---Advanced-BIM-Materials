@@ -18,14 +18,14 @@ The IFC test file used under the development of the tool, is _25-16-D-ARCH_, com
 As the tool is a GWP comparison tool only suitable for generic EPD's, a specific problem from the report have not been identified. Instead, the report has been used as a basis for the comparison idea, as the report states different GWP values for different materials. These materials are, unfortunately, connected to product specific EPD's, and therefore, it has not been possible to state the report's claim. 
 
 ----
-Our tool is scripted independent of Analyst Group 33's tool. 
+Our tool is scripted independent of the Analyst Group 33's tool. 
 
 However, since both tools can calculate GWP of different building components (Exterior Walls vs. Structural model) they could be combined and used together, if some modifications were to be done. 
 
 ----
 ## Description of our tool
 
-Our tool is divided into several smaller Python scripts to make future changes or updates easier.
+Our tool is divided into several smaller Python scripts to make future changes or updates easier. The python scripts are as follows:
 
 - [Model.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/main.py) – reads and organizes data from the BIM model.
 - [Defining_Exterior_Walls.py](https://github.com/s223929/41934---Advanced-BIM-Materials/blob/4611aa8760dba61ce394465f5a11ef1aede9513d/A3/Defining_Exterior_Walls.py) – selects the exterior walls to be analysed.
