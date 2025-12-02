@@ -107,13 +107,15 @@ All in all, A1–A5 taught me something completely new about BIM, how to move fr
 
 I have learned a great deal through the assignments A1-A5. 
 
-For A1, although I have taken a few courses related to BIM during my bachelor's, I was impressed by how easy the IFC classification system made extracting data from a model. I was also surprised by the many challenges related to BIM information and data - since the aims and dreams of out furture tool quickly has a reality check as problems related to material extraction and mapping quickly arose. 
+For A1, although I have taken a few courses related to BIM during my bachelor's, I was impressed by how easy the IFC classification system made extracting data from a model. I was also surprised by the many challenges related to BIM information and data. The big ambitions we had for our future tool quickly got a reality check when issues (or maybe complexities is a better word) with material extraction and mapping started to appear.
 
-For A2, we got to plan out the tool (A3). This forced me/us to reflect on what tool would actually be meaningful and create purpose. In addition, the BPMN diagram made me reflect a lot about the order of each of the steps, as each step had to be done in the right order to connect the data extracted to the edn goal. 
+For A2, we planned the tool (A3). This forced me to reflect on what tool would actually be meaningful and create purpose. This challenged me quite a lot, because I’m not really used to having to think creatively, especially at DTU, where assignments are usually much more structured. In addition, the BPMN diagram made me reflect a lot about the order of each of the steps, as each step had to be done in the right order to connect the extracted data to the end goal. 
 
-When actually coding the script for A3, we got wiser in terms of the steps to code, why we updated the BPMN diagram for this assignment. In the process of coding the script, we ran into multiple challenges; for example of units, extraction of layered materials, and material mapping. 
+When we started coding the script for A3, we realized even more about the process, which is why we updated the BPMN diagram again. In the process of coding the script, we ran into multiple challenges; for example of units, extraction of layered materials, and material mapping. I found these things genuinely challenging and at times pretty frustrating. I often felt confused since there were so many details to keep track of. It ended up being a very iterative process where we had to figure out both what we actually wanted the tool to do and what was realistically possible with the available data (and with my limited coding skills).
 
+For A4, we decided to build our tutorial around some of the simpler challenges we had run into in A3. We thought this would help future students avoid making the same mistakes when connecting LCA with BIM. Writing the tutorial also gave me a better overview and helped me understand our struggles more clearly.
 
+Generally, I think working through these assignments really opened my imagination for what’s possible with OpenBIM.
 
 
 
